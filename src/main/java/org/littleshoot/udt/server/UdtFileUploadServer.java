@@ -70,31 +70,11 @@ public class UdtFileUploadServer {
             }
             final SocketAddress serverAddress = 
                 new InetSocketAddress(getLocalHost(), 7777);
-            System.out.println("Server address is: {}"+serverAddress);
+            log.info("Server address is: {}"+serverAddress);
             serverSocket.bind(serverAddress);
         } catch (final IOException e) {
             throw new RuntimeException("Could not launch server", e);
         }
-        //System.setProperty("java.library.path", ".");
-        /*
-        final SelectorProvider provider = SelectorProviderUDT.DATAGRAM;
-        try {
-            this.acceptorChannel = provider.openServerSocketChannel();
-            this.acceptorChannel.configureBlocking(false);
-            this.acceptorSocket = acceptorChannel.socket();
-            final InetSocketAddress acceptorAddress = 
-                new InetSocketAddress("localhost", 12345);
-            acceptorSocket.bind(acceptorAddress);
-            
-            selector = provider.openSelector();
-            acceptorKey = 
-                acceptorChannel.register(selector, SelectionKey.OP_ACCEPT);
-            
-            select();
-        } catch (final IOException e) {
-            throw new RuntimeException("Could not launch server", e);
-        }
-        */
     }
     
     public void start() {
@@ -110,15 +90,6 @@ public class UdtFileUploadServer {
             time();
             copyFile(sock);
         }
-
-        /*
-        try {
-            final SocketChannel connectorChannel = acceptorChannel.accept();
-        } catch (final IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-        */
     }
 
     private void copyFile(final Socket sock) {
@@ -142,7 +113,7 @@ public class UdtFileUploadServer {
                         // Eat the \n.
                         nameIndex++;
                         final String fileName = new String(bytes, 4, nameIndex).trim();
-                        System.out.println("File name: "+fileName);
+                        log.info("File name: "+fileName);
                         final File f = new File(fileName);
                         final FileInputStream fis = new FileInputStream(f);
                         os = sock.getOutputStream();
@@ -151,8 +122,6 @@ public class UdtFileUploadServer {
                         os.close();
                         return;
                     }
-                    
-                    
                     int nameIndex = 0;
                     int lengthIndex = 0;
                     boolean foundFirst = false;
@@ -174,19 +143,12 @@ public class UdtFileUploadServer {
                         sock.close();
                         return;
                     }
-                    if (!foundFirst) {
-                        
-                    }
-                    System.out.println("Name Index: "+nameIndex);
-                    System.out.println("Length index: "+lengthIndex);
+                    log.info("Name Index: "+nameIndex);
+                    log.info("Length index: "+lengthIndex);
                     final String fileName = new String(bytes, 0, nameIndex).trim();
                     //final String lengthString = new String(bytes, nameIndex, lengthIndex).trim();
                     final long length = Long.parseLong("1073741824");
-                    System.out.println("Length is: "+length);
-                    
-                    //final BufferedReader br = 
-                    //    new BufferedReader(new InputStreamReader(is));
-                    //final String fileName = br.readLine();
+                    log.info("Length is: "+length);
                     final File file = new File(fileName);
                     os = new FileOutputStream(file);
                     final int len = bytesRead - lengthIndex;
@@ -250,10 +212,10 @@ public class UdtFileUploadServer {
             if (count == length) {
                 break;
             }
-            // System.out.println("Bytes written: "+count);
+            // log.info("Bytes written: "+count);
         }
         final long end = System.currentTimeMillis();
-        System.out.println("TOTAL TIME: " + (end - start) / 1000 + " seconds");
+        log.info("TOTAL TIME: " + (end - start) / 1000 + " seconds");
         return count;
     }
     
@@ -264,7 +226,7 @@ public class UdtFileUploadServer {
             public void run() {
                 final long cur = System.currentTimeMillis();
                 final long secs = (cur - start)/1000;
-                System.out.println("TRANSFERRED: "+count/1024+" SPEED: "+(count/1024)/secs + "KB/s");
+                log.info("TRANSFERRED: "+count/1024+" SPEED: "+(count/1024)/secs + "KB/s");
             }
         };
         final Timer t = new Timer();
