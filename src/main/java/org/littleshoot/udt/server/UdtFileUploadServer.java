@@ -143,12 +143,9 @@ public class UdtFileUploadServer {
                         sock.close();
                         return;
                     }
-                    log.info("Name Index: "+nameIndex);
-                    log.info("Length index: "+lengthIndex);
                     final String fileName = new String(bytes, 0, nameIndex).trim();
-                    //final String lengthString = new String(bytes, nameIndex, lengthIndex).trim();
-                    final long length = Long.parseLong("1073741824");
-                    log.info("Length is: "+length);
+                    final String lengthString = new String(bytes, nameIndex, lengthIndex).trim();                 
+                    final long length = Long.parseLong(lengthString);
                     final File file = new File(fileName);
                     os = new FileOutputStream(file);
                     final int len = bytesRead - lengthIndex;
