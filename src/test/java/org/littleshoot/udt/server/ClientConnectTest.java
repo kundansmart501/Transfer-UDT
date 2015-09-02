@@ -25,7 +25,8 @@ public class ClientConnectTest extends TestCase {
 
 	private final long start = System.currentTimeMillis();
 	private int count = 0;
-
+	private final String sourcePath = "/home/kundan/Music/";
+	private final String targetPath = "/home/kundan/Downloads/";
 	@Test public void testClientConnect() throws Exception {
 		final Socket clientSocket = new NetSocketUDT();
 		//final Socket clientSocket = new Socket();
@@ -36,11 +37,11 @@ public class ClientConnectTest extends TestCase {
 				new InetSocketAddress("192.168.2.157", 7777);
 		clientSocket.connect(serverAddress);
 		log.info("Connected!!");
-		final File f = new File("/home/kundan/Music/mitti_d_khusbu.mp3");
+		final File f = new File(sourcePath+"mitti_d_khusbu.mp3");
 		final FileInputStream is = new FileInputStream(f);
 		OutputStream os = clientSocket.getOutputStream();
 		time();
-		os.write(("mitti_d_khusbu.mp3\n"+f.length()+"\n").getBytes("UTF-8"));
+		os.write((targetPath+"mitti_d_khusbu.mp3\n"+f.length()+"\n").getBytes("UTF-8"));
 		//IOUtils.copy(is, os);
 		copy(is, os);
 		log.info("DONE WITH COPY!!");
