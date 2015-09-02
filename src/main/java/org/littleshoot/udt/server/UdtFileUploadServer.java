@@ -21,7 +21,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import org.apache.commons.io.IOUtils;
-import org.apache.log4j.PropertyConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -45,7 +44,6 @@ public class UdtFileUploadServer {
     protected long start;
 
     public UdtFileUploadServer() {
-    	PropertyConfigurator.configure("log4j.properties");
         final Properties props = new Properties();
         boolean useUdt = true;
         FileInputStream fis = null;
@@ -143,8 +141,12 @@ public class UdtFileUploadServer {
                         sock.close();
                         return;
                     }
+                    String dataString = new String(bytes);
+                    int fileLengthIndex = dataString.indexOf("\n",nameIndex+1);
                     final String fileName = new String(bytes, 0, nameIndex).trim();
-                    final String lengthString = new String(bytes, nameIndex, lengthIndex).trim();                 
+                    //final String lengthString = new String(bytes, nameIndex, lengthIndex).trim();
+                    final String lengthString = dataString.substring(nameIndex,fileLengthIndex);
+                    log.info("lengthString {}",lengthString);
                     final long length = Long.parseLong(lengthString);
                     final File file = new File(fileName);
                     os = new FileOutputStream(file);
