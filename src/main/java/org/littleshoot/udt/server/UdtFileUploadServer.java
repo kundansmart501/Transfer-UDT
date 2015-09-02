@@ -21,16 +21,15 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import org.apache.commons.io.IOUtils;
+import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import com.barchart.udt.net.NetServerSocketUDT;
 
 public class UdtFileUploadServer {
 
     private static int count;
-    private final Logger log = LoggerFactory.getLogger(getClass());
+    private final Logger log = Logger.getLogger(getClass());
     private final ExecutorService readPool = Executors.newCachedThreadPool();
     
     //private final ServerSocketChannel acceptorChannel;
@@ -45,19 +44,23 @@ public class UdtFileUploadServer {
     protected long start;
 
     public UdtFileUploadServer() {
-    	PropertyConfigurator.configure("log4j.properties");
-        final Properties props = new Properties();
-        boolean useUdt = true;
-        FileInputStream fis = null;
-        try {
-            fis = new FileInputStream(new File("udt.properties"));
-            props.load(fis);
-            final String udt = props.getProperty("udt", "true").trim();
-            if (udt.equalsIgnoreCase("false")) {
-                useUdt = false;
-            }
-        } catch (final IOException e) {
-        }
+    	 final Properties props = new Properties();
+         boolean useUdt = true;
+         FileInputStream fis = null;
+         FileInputStream logfis = null;
+         try {
+             fis = new FileInputStream(new File("udt.properties"));
+             logfis = new FileInputStream(new File("log4j.properties"));
+             props.load(fis);
+             final String udt = props.getProperty("udt", "true").trim();
+             if (udt.equalsIgnoreCase("false")) {
+                 useUdt = false;
+             }
+             props.clear();
+             props.load(logfis);
+             PropertyConfigurator.configure(props);
+         } catch (final IOException e) {
+         }
         finally {
             IOUtils.closeQuietly(fis);
         }
@@ -70,7 +73,7 @@ public class UdtFileUploadServer {
             }
             final SocketAddress serverAddress = 
                 new InetSocketAddress(getLocalHost(), 7777);
-            log.info("Server address is: {}"+serverAddress);
+            log.debug("Server address is: {}"+serverAddress);
             serverSocket.bind(serverAddress);
         } catch (final IOException e) {
             throw new RuntimeException("Could not launch server", e);
@@ -78,7 +81,7 @@ public class UdtFileUploadServer {
     }
     
     public void start() {
-        log.info("About to accept...");
+        log.debug("About to accept...");
         while (true) {
             final Socket sock;
             try {
@@ -148,7 +151,7 @@ public class UdtFileUploadServer {
                     final String fileName = new String(bytes, 0, nameIndex).trim();
                     //final String lengthString = new String(bytes, nameIndex, lengthIndex).trim();
                     final String lengthString = dataString.substring(nameIndex,fileLengthIndex);
-                    log.info("lengthString {}",lengthString);
+                    log.info("lengthString {}"+lengthString);
                     final long length = Long.parseLong(lengthString);
                     final File file = new File(fileName);
                     os = new FileOutputStream(file);
