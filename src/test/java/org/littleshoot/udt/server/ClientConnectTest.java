@@ -11,38 +11,39 @@ import java.net.SocketAddress;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import junit.framework.TestCase;
-
-import org.apache.log4j.PropertyConfigurator;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.barchart.udt.MonitorUDT;
 import com.barchart.udt.net.NetSocketUDT;
 
+import junit.framework.TestCase;
+
 public class ClientConnectTest extends TestCase {
-	private final Logger log = LoggerFactory.getLogger(getClass());
+	private final Logger log = LoggerFactory.getLogger(ClientConnectTest.class);
 
 	private final long start = System.currentTimeMillis();
 	private int count = 0;
-
+	private final String sourcePath = "/home/kundan/Music/";
+	private final String targetPath = "/home/kundan/Downloads/";
 	@Test public void testClientConnect() throws Exception {
-		PropertyConfigurator.configure("log4j.properties");
 		final Socket clientSocket = new NetSocketUDT();
 		//final Socket clientSocket = new Socket();
 
+		/*final SocketAddress serverAddress = 
+				new InetSocketAddress("182.71.214.250", 7777);*/
 		final SocketAddress serverAddress = 
-				new InetSocketAddress("192.168.2.54", 7777);
+				new InetSocketAddress("192.168.2.157", 7777);
 		clientSocket.connect(serverAddress);
 		log.info("Connected!!");
-		final File f = new File("/home/kundan/KundanData/Download/dracula.mkv");
+		final File f = new File(sourcePath+"mitti_d_khusbu.mp3");
 		final FileInputStream is = new FileInputStream(f);
 		OutputStream os = clientSocket.getOutputStream();
 		time();
-		os.write(("dracula.mkv\n"+f.length()+"\n").getBytes("UTF-8"));
+		os.write((targetPath+"mitti_d_khusbu.mp3\n"+f.length()+"\n").getBytes("UTF-8"));
 		//IOUtils.copy(is, os);
 		copy(is, os);
-
 		log.info("DONE WITH COPY!!");
 		Thread.sleep(220 * 1000);
 		clientSocket.close();
