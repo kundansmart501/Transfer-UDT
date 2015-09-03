@@ -92,7 +92,7 @@ public class UdtFileUploadServer {
 				log.warn("Exception on accept", e);
 				continue;
 			}
-			time();
+			//time();
 			/*monResult = Executors.newSingleThreadExecutor()
 					.submit(new Callable<Boolean>() {
 						@Override
@@ -130,7 +130,7 @@ public class UdtFileUploadServer {
 						final FileInputStream fis = new FileInputStream(f);
 						os = sock.getOutputStream();
 
-						copy(fis, os, f.length());
+						copy(fis, os, f.length(),0);
 						os.close();
 						return;
 					}
@@ -168,7 +168,8 @@ public class UdtFileUploadServer {
 						os.write(bytes, lengthIndex, len);
 					}
 					start = System.currentTimeMillis();
-					copy(is, os, length);
+					time(length-len);
+                    copy(is, os, length, len);
 				} catch (final IOException e) {
 					log.info("Exception reading file...", e);
 				} finally {
@@ -212,39 +213,39 @@ public class UdtFileUploadServer {
 	 */
 
 	private long copy(final InputStream input, final OutputStream output, 
-			final long length) throws IOException {
+	        final long length, final int extraLength) throws IOException {
 
-		final int DEFAULT_BUFFER_SIZE = 1024 * 4;
-		byte[] buffer = new byte[DEFAULT_BUFFER_SIZE];
-		// long count = 0;
-		int n = 0;
-		while (-1 != (n = input.read(buffer))) {
-			output.write(buffer, 0, n);
-			count += n;
-			if (count == length) {
-				break;
-			}
-			// log.info("Bytes written: "+count);
-		}
-		final long end = System.currentTimeMillis();
-		log.info("TOTAL TIME: " + (end - start) / 1000 + " seconds");
-		return count;
-	}
+	        final int DEFAULT_BUFFER_SIZE = 1024 * 4;
+	        byte[] buffer = new byte[DEFAULT_BUFFER_SIZE];
+	        // long count = 0;
+	        int n = 0;        
+	        while (-1 != (n = input.read(buffer))) {
+	        	output.write(buffer, 0, n);
+	            count += n;
+	            if(count+extraLength == length) {
+	                break;
+	            }            
+	        }        
+	        final long end = System.currentTimeMillis();
+	        log.info("TOTAL TIME: " + (end - start) / 1000 + " seconds");
+	        return count;
+	    }
 
-	private void time() {
-		final TimerTask tt = new TimerTask() {
-
-			@Override
-			public void run() {
-				final long cur = System.currentTimeMillis();
-				final long secs = (cur - start)/1000;
-				log.info("Received: "+count/1024+" SPEED: "+(count/1024)/secs + "KB/s");
-				log.info(((NetServerSocketUDT) serverSocket).socketUDT().monitor().currentSendPeriod());
-			}
-		};
-		final Timer t = new Timer();
-		t.schedule(tt, 2000, 2000);
-	}
+	 private void time(final long actualLength) {
+	        final TimerTask tt = new TimerTask() {
+	            
+	            @Override
+	            public void run() {
+	                final long cur = System.currentTimeMillis();
+	                final long secs = (cur - start)/1000;
+	                log.info("TRANSFERRED: "+count/1024+" SPEED: "+(count/1024)/secs + "KB/s");               
+	                if(count == actualLength)
+	                	this.cancel();
+	            }
+	        };
+	        final Timer t = new Timer();
+	        t.schedule(tt, 2000, 2000);
+	    }
 
 	/**
 	 * Many Linux systems typically return 127.0.0.1 as the localhost address
