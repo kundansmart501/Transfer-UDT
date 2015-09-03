@@ -275,7 +275,7 @@ public class MonitorUDT {
 	}
 
 	/**
-	 * RTT, in milliseconds
+	 * RTT(Round Trip Time), in milliseconds
 	 */
 	protected volatile double msRTT;
 

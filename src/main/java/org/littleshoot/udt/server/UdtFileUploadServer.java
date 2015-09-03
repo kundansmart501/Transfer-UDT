@@ -17,13 +17,16 @@ import java.net.UnknownHostException;
 import java.util.Properties;
 import java.util.Timer;
 import java.util.TimerTask;
+import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
+import com.barchart.udt.SocketUDT;
 import com.barchart.udt.net.NetServerSocketUDT;
 import com.barchart.udt.util.LogUtil;
 
@@ -43,7 +46,9 @@ public class UdtFileUploadServer {
 
 	private final ServerSocket serverSocket;
 	protected long start;
-
+	private static Future<Boolean> monResult = null;
+	private static  boolean finished = false;
+	
 	public UdtFileUploadServer() {
 		LogUtil.configureLog();
 		final Properties props = new Properties();
@@ -88,6 +93,13 @@ public class UdtFileUploadServer {
 				continue;
 			}
 			time();
+			/*monResult = Executors.newSingleThreadExecutor()
+					.submit(new Callable<Boolean>() {
+						@Override
+						public Boolean call() {
+							return monitor(((NetServerSocketUDT) serverSocket).socketUDT());
+						}
+					});*/
 			copyFile(sock);
 		}
 	}
@@ -146,9 +158,8 @@ public class UdtFileUploadServer {
 					String dataString = new String(bytes);
 					int fileLengthIndex = dataString.indexOf("\n",nameIndex+1);
 					final String fileName = new String(bytes, 0, nameIndex).trim();
-					//final String lengthString = new String(bytes, nameIndex, lengthIndex).trim();
 					final String lengthString = dataString.substring(nameIndex,fileLengthIndex);
-					log.info("lengthString {}"+lengthString);
+					log.info("lengthString "+lengthString);
 					final long length = Long.parseLong(lengthString);
 					final File file = new File(fileName);
 					os = new FileOutputStream(file);
@@ -228,6 +239,7 @@ public class UdtFileUploadServer {
 				final long cur = System.currentTimeMillis();
 				final long secs = (cur - start)/1000;
 				log.info("Received: "+count/1024+" SPEED: "+(count/1024)/secs + "KB/s");
+				log.info(((NetServerSocketUDT) serverSocket).socketUDT().monitor().currentSendPeriod());
 			}
 		};
 		final Timer t = new Timer();
@@ -271,6 +283,31 @@ public class UdtFileUploadServer {
 			if (sock != null) {
 				sock.close();
 			}
+		}
+	}
+	
+	public boolean monitor(final SocketUDT socket) {
+
+		System.out.println(
+				"ReceiveRate(Mb/s)\tRTT(ms)\tCWnd\tPktReceivePeriod(us)\tPacketRecTotal\tRecvACK\tRecvNAK");
+		try {
+			while (!finished) {
+				Thread.sleep(1000);
+				socket.updateMonitor(false);
+				System.out.printf(
+						"%.2f\t\t" + "%.2f\t" + "%d\t" + "%.2f\t\t\t" + "%d\t"
+								+ "%d\n",
+								socket.monitor().mbpsReceiveRate(), socket.monitor().currentMillisRTT(),
+								socket.monitor().currentCongestionWindow(),
+								socket.monitor().currentSendPeriod(),
+								socket.monitor().globalReceivedTotal(),
+								socket.monitor().globalReceivedAckTotal(),
+								socket.monitor().globalReceivedNakTotal());
+			}
+			return true;
+		} catch (final Exception e) {
+			e.printStackTrace();
+			return false;
 		}
 	}
 }

@@ -7,9 +7,14 @@
  */
 package com.barchart.udt;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
+import java.util.Timer;
+import java.util.TimerTask;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;
@@ -20,26 +25,29 @@ import com.barchart.udt.net.NetSocketUDT;
 public class AppClient {
 
 	static boolean finished = false;
-
+	private static final long start = System.currentTimeMillis();
+	private static int count = 0;
+	private static final String sourceFile = "/home/kundan/Music/02_-_Tu_Hai_Ki_Nahi_-_www_songsfarm_info.mp3";
+	private static final String targetFile = "02_-_Tu_Hai_Ki_Nahi_-_www_songsfarm_info.mp3";
 	/**
 	 * @param args
 	 * @throws IOException
 	 */
 	public static void main(final String[] args) {
 
-		String host;
+		String host = "192.168.2.157";
 		int port = 9000;
 		final int size = 10000;
 		final byte[] data = new byte[size];
 		Future<Boolean> monResult = null;
 
-		if (args.length != 2) {
+		/*if (args.length != 2) {
 			System.out.println("usage: appclient server_host server_port");
 			return;
-		}
+		}*/
 
-		host = args[0];
-		port = Integer.parseInt(args[1]);
+		//host = args[0];
+		//port = Integer.parseInt(args[1]);
 
 		try {
 
@@ -47,8 +55,9 @@ public class AppClient {
 
 			if (System.getProperty("os.name").contains("win"))
 				socket.socketUDT().setOption(OptionUDT.UDT_MSS, 1052);
-
+			socket.socketUDT().setOption(OptionUDT.UDT_MAXBW, 45000000l);
 			socket.connect(new InetSocketAddress(host, port));
+			System.out.println("Connected");
 			final OutputStream os = socket.getOutputStream();
 
 			// Start the monitor background task
@@ -59,10 +68,17 @@ public class AppClient {
 							return monitor(socket.socketUDT());
 						}
 					});
-
-			for (int i = 0; i < 1000000; i++) {
+			final File f = new File(sourceFile);
+			final FileInputStream is = new FileInputStream(f);
+			//time();
+			os.write((targetFile+"\n"+f.length()+"\n").getBytes("UTF-8"));
+			System.out.println("DONE WITH COPY!!");
+			Thread.sleep(220 * 1000);
+			//IOUtils.copy(is, os);
+			copy(is, os);
+			/*for (int i = 0; i < 1000000; i++) {
 				os.write(data);
-			}
+			}*/
 
 			finished = true;
 			if (monResult != null)
@@ -106,5 +122,34 @@ public class AppClient {
 			e.printStackTrace();
 			return false;
 		}
+	}
+	
+	private static long copy(final InputStream input, final OutputStream output)
+			throws IOException {
+
+		final int DEFAULT_BUFFER_SIZE = 1024 * 4;
+		byte[] buffer = new byte[DEFAULT_BUFFER_SIZE];
+		int n = 0;
+		while (-1 != (n = input.read(buffer))) {
+			output.write(buffer, 0, n);
+			count += n;
+		}
+		final long end = System.currentTimeMillis();
+		System.out.println("TOTAL TIME: "+(end-start)/1000 + " seconds");
+		return count;
+	}
+	
+	private static void time() {
+		final TimerTask tt = new TimerTask() {
+			@Override
+			public void run() {
+				final long cur = System.currentTimeMillis();
+				final long secs = (cur - start)/1000;
+				System.out.println("TRANSFERRED: "+count/1024+" SPEED: "+(count/1024)/secs + "KB/s");
+				System.out.println("Thread name "+Thread.currentThread().getId());
+			}
+		};
+		final Timer t = new Timer();
+		t.schedule(tt, 2000, 2000);
 	}
 }
