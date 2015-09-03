@@ -1,4 +1,4 @@
-package org.littleshoot.udt.server;
+package com.captionlab.udt.client;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -12,22 +12,19 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import org.apache.log4j.Logger;
-import org.junit.Test;
 
 import com.barchart.udt.net.NetSocketUDT;
 import com.barchart.udt.util.LogUtil;
 
-import junit.framework.TestCase;
+public class UDTClient {
+	private static final Logger log = Logger.getLogger(UDTClient.class);
 
-public class ClientConnectTest extends TestCase {
-	private final Logger log = Logger.getLogger(ClientConnectTest.class);
-
-	private final long start = System.currentTimeMillis();
-	private int count = 0;
-	private long temp = count;
-	private final String sourceFile = "/home/kundan/Music/02_-_Tu_Hai_Ki_Nahi_-_www_songsfarm_info.mp3";
-	private final String targetFile = "02_-_Tu_Hai_Ki_Nahi_-_www_songsfarm_info.mp3";
-	@Test public void testClientConnect() throws Exception {
+	private static final long start = System.currentTimeMillis();
+	private static int count = 0;
+	private static final String sourceFile = "/home/kundan/Music/02_-_Tu_Hai_Ki_Nahi_-_www_songsfarm_info.mp3";
+	private static final String targetFile = "02_-_Tu_Hai_Ki_Nahi_-_www_songsfarm_info.mp3";
+	
+	public static void main(String []args) throws Exception {
 		LogUtil.configureLog();
 		final Socket clientSocket = new NetSocketUDT();
 		/*final SocketAddress serverAddress = 
@@ -48,32 +45,28 @@ public class ClientConnectTest extends TestCase {
 		clientSocket.close();
 	}
 
-	private long copy(final InputStream input, final OutputStream output)
+	private static long copy(final InputStream input, final OutputStream output)
 			throws IOException {
 
 		final int DEFAULT_BUFFER_SIZE = 1024 * 4;
 		byte[] buffer = new byte[DEFAULT_BUFFER_SIZE];
-		//long count = 0;
 		int n = 0;
 		while (-1 != (n = input.read(buffer))) {
 			output.write(buffer, 0, n);
-			this.count += n;
-			//log.info("Bytes written: "+count);
+			count += n;
 		}
 		final long end = System.currentTimeMillis();
 		log.info("TOTAL TIME: "+(end-start)/1000 + " seconds");
 		return count;
 	}
 
-	private void time() {
+	private static void time() {
 		final TimerTask tt = new TimerTask() {
 			@Override
 			public void run() {
-				temp = temp-1024;
 				final long cur = System.currentTimeMillis();
 				final long secs = (cur - start)/1000;
 				log.info("TRANSFERRED: "+count/1024+" SPEED: "+(count/1024)/secs + "KB/s");
-				log.info("temp "+temp);
 				log.info("Thread name "+Thread.currentThread().getId());
 			}
 		};
