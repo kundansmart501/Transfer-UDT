@@ -63,6 +63,7 @@ public class UdtFileUploadServer {
          }
         finally {
             IOUtils.closeQuietly(fis);
+            IOUtils.closeQuietly(logfis);
         }
         try {
             if (useUdt) {
