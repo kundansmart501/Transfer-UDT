@@ -32,7 +32,7 @@ import com.barchart.udt.util.LogUtil;
 
 public class UdtFileUploadServer {
 
-	private static int count;
+	private static long count;
 	private final Logger log = Logger.getLogger(getClass());
 	private final ExecutorService readPool = Executors.newCachedThreadPool();
 
