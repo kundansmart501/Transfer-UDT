@@ -239,6 +239,11 @@ public class UdtFileUploadServer {
 	                final long secs = (cur - start)/1000;
 	                log.info("TRANSFERRED: "+count/1024+" SPEED: "+(count/1024)/secs + "KB/s");               
 	                if(count == actualLength)
+						try {
+							Thread.sleep(1000);
+						} catch (InterruptedException e) {
+							e.printStackTrace();
+						}
 	                	this.cancel();
 	            }
 	        };
