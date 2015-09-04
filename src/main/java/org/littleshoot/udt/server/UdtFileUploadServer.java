@@ -92,7 +92,6 @@ public class UdtFileUploadServer {
 				log.warn("Exception on accept", e);
 				continue;
 			}
-			//time();
 			/*monResult = Executors.newSingleThreadExecutor()
 					.submit(new Callable<Boolean>() {
 						@Override
