@@ -237,14 +237,15 @@ public class UdtFileUploadServer {
 	            public void run() {
 	                final long cur = System.currentTimeMillis();
 	                final long secs = (cur - start)/1000;
-	                log.info("TRANSFERRED: "+count/1024+" SPEED: "+(count/1024)/secs + "KB/s");               
-	                if(count == actualLength)
+	                log.info("Received : "+count/1024+" SPEED: "+(count/1024)/secs + "KB/s");               
+	                if(count == actualLength){
 						try {
-							Thread.sleep(1000);
+							Thread.sleep(5000);
 						} catch (InterruptedException e) {
 							e.printStackTrace();
 						}
 	                	this.cancel();
+	                }
 	            }
 	        };
 	        final Timer t = new Timer();

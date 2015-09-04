@@ -13,6 +13,7 @@ import java.util.concurrent.Future;
 
 import org.apache.log4j.Logger;
 
+import com.barchart.udt.OptionUDT;
 import com.barchart.udt.SocketUDT;
 import com.barchart.udt.net.NetSocketUDT;
 import com.barchart.udt.util.LogUtil;
@@ -33,6 +34,7 @@ public class UDTClient {
 			final NetSocketUDT clientSocket = new NetSocketUDT();
 			final SocketAddress serverAddress = 
 					new InetSocketAddress(ipAddress, port);
+			//clientSocket.socketUDT().setOption(OptionUDT.UDT_MAXBW, 3932160l);
 			clientSocket.connect(serverAddress);
 			log.info("Connected!!");
 			final File f = new File(sourceFile);
@@ -62,7 +64,7 @@ public class UDTClient {
 	public boolean monitor(final SocketUDT socket) {
 
 		System.out.println(
-				"SendRate(Mb/s)\tRTT(ms)\tCWnd\tPktSndPeriod(ms)\tRecvACK\tRecvNAK");
+				"SendRate(Mb/s)\tRTT(ms)\tCWnd\tPktSndPeriod(ms)\tRecvACK\tRecvNAK\tPacketSent");
 		try {
 			while (!finished) {
 
@@ -70,12 +72,12 @@ public class UDTClient {
 				socket.updateMonitor(false);
 				System.out.printf(
 						"%.3f\t\t" + "%.2f\t" + "%d\t" + "%.2f\t\t\t" + "%d\t"
-								+ "%d\n",
+								+ "%d\t"+"%d\n",
 						socket.monitor().mbpsSendRate()/10, socket.monitor().currentMillisRTT(),
 						socket.monitor().currentCongestionWindow(),
 						socket.monitor().currentSendPeriod(),
 						socket.monitor().globalReceivedAckTotal(),
-						socket.monitor().globalReceivedNakTotal());
+						socket.monitor().globalReceivedNakTotal(),socket.monitor().localPacketsSent());
 			}
 			return true;
 		} catch (final Exception e) {
