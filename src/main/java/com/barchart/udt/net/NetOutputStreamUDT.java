@@ -63,7 +63,6 @@ public class NetOutputStreamUDT extends OutputStream {
 
 			final int count = socketUDT.send(bytes, off + len - bytesRemaining,
 					off + len);
-
 			if (count > 0) {
 				bytesRemaining -= count;
 				continue;

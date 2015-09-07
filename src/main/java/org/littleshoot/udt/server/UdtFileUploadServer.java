@@ -17,14 +17,12 @@ import java.net.UnknownHostException;
 import java.util.Properties;
 import java.util.Timer;
 import java.util.TimerTask;
-import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 
 import com.barchart.udt.SocketUDT;
 import com.barchart.udt.net.NetServerSocketUDT;
@@ -169,7 +167,8 @@ public class UdtFileUploadServer {
 					start = System.currentTimeMillis();
 					time(length-len);
                     copy(is, os, length, len);
-				} catch (final IOException e) {
+                    Thread.sleep(3000);
+				} catch (final IOException  | InterruptedException e) {
 					log.info("Exception reading file...", e);
 				} finally {
 					IOUtils.closeQuietly(is);
@@ -240,7 +239,7 @@ public class UdtFileUploadServer {
 	                log.info("Received : "+count/1024+" SPEED: "+(count/1024)/secs + "KB/s");               
 	                if(count == actualLength){
 						try {
-							Thread.sleep(6000);
+							Thread.sleep(3000);
 						} catch (InterruptedException e) {
 							e.printStackTrace();
 						}

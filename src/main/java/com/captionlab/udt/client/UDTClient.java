@@ -7,11 +7,11 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.SocketAddress;
-import java.util.Scanner;
 import java.util.concurrent.Callable;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
+import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Logger;
 
 import com.barchart.udt.FactoryUDT;
@@ -25,7 +25,7 @@ public class UDTClient {
 	private static final Logger log = Logger.getLogger(UDTClient.class);
 	private boolean finished = false;
 	// UDT has roughly 7% congestion control overhead
-	// so we need to take that into account if you want
+	// so we need to take that into account if we want
 	// to limit wire speed
 	private final double maxBW = 300 * 0.93;
 	
@@ -45,7 +45,6 @@ public class UDTClient {
 			final SocketAddress serverAddress = 
 					new InetSocketAddress(ipAddress, port);
 			//clientSocket.socketUDT().setOption(OptionUDT.UDT_MAXBW, 37050000l);
-			log.info("Default bandwidth >>  "+clientSocket.socketUDT().getOption(OptionUDT.UDT_MAXBW));
 			clientSocket.connect(serverAddress);
 			log.info("Connected!!");
 			final Object obj = clientSocket.socketUDT().getOption(OptionUDT.UDT_CC);
@@ -65,11 +64,12 @@ public class UDTClient {
 			os.write((targetFile+"\n"+f.length()+"\n").getBytes("UTF-8"));
 			count = copy(is, os,start,count);
 			this.finished = true;
-			Thread.sleep(220 * 3000);
+			Thread.sleep(220 * 5000);
 			log.info("DONE WITH COPY!!");
 			if (monResult != null){
 				monResult.get();
 			}
+			IOUtils.closeQuietly(clientSocket);
 		}catch(Exception e){
 			log.error("Exception occured "+e);
 		}
@@ -110,7 +110,17 @@ public class UDTClient {
 		while (-1 != (n = input.read(buffer))) {
 			output.write(buffer, 0, n);
 			count += n;
+			//Tested pausing transfer for 10 secs
+			/*if(count==4096*15){
+				System.out.println("Let me sleep some time !!");
+				try {
+					Thread.sleep(10000);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}*/
 		}
+		
 		final long end = System.currentTimeMillis();
 		log.info("TOTAL TIME: "+(end-start)/1000 + " seconds");
 		return count;
