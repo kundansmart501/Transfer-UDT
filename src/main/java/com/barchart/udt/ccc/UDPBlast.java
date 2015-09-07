@@ -18,7 +18,7 @@ import com.barchart.udt.CCC;
 public class UDPBlast extends CCC {
 
 	static final int iSMSS = 1500;
-
+	//Set short time delay
 	public UDPBlast() {
 		setCWndSize(83333.0);
 	}

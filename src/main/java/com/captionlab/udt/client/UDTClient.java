@@ -13,30 +13,43 @@ import java.util.concurrent.Future;
 
 import org.apache.log4j.Logger;
 
+import com.barchart.udt.FactoryUDT;
 import com.barchart.udt.OptionUDT;
 import com.barchart.udt.SocketUDT;
+import com.barchart.udt.ccc.UDPBlast;
 import com.barchart.udt.net.NetSocketUDT;
 import com.barchart.udt.util.LogUtil;
 
 public class UDTClient {
 	private static final Logger log = Logger.getLogger(UDTClient.class);
-	private static boolean finished = false;
+	private boolean finished = false;
+	// UDT has roughly 7% congestion control overhead
+	// so we need to take that into account if you want
+	// to limit wire speed
+	private final double maxBW = 300 * 0.93;
+	
 	public UDTClient(){
 		LogUtil.configureLog();
 	}
 	
 	public void transferFile(String sourceFile,String targetFile,String ipAddress,int port){
-		finished = false;
+		this.finished = false;
 		final long start = System.currentTimeMillis();
 		long count = 0;
 		Future<Boolean> monResult = null;
 		try{
 			final NetSocketUDT clientSocket = new NetSocketUDT();
+			clientSocket.socketUDT().setOption(OptionUDT.UDT_CC, new FactoryUDT<UDPBlast>(
+					UDPBlast.class));
 			final SocketAddress serverAddress = 
 					new InetSocketAddress(ipAddress, port);
-			//clientSocket.socketUDT().setOption(OptionUDT.UDT_MAXBW, 3932160l);
+			//clientSocket.socketUDT().setOption(OptionUDT.UDT_MAXBW, 37050000l);
+			log.info("Default bandwidth >>  "+clientSocket.socketUDT().getOption(OptionUDT.UDT_MAXBW));
 			clientSocket.connect(serverAddress);
 			log.info("Connected!!");
+			final Object obj = clientSocket.socketUDT().getOption(OptionUDT.UDT_CC);
+			final UDPBlast objCCC = (UDPBlast) obj;
+			objCCC.setRate((int) maxBW);
 			final File f = new File(sourceFile);
 			final FileInputStream is = new FileInputStream(f);
 			OutputStream os = clientSocket.getOutputStream();
@@ -50,11 +63,12 @@ public class UDTClient {
 			//time();
 			os.write((targetFile+"\n"+f.length()+"\n").getBytes("UTF-8"));
 			count = copy(is, os,start,count);
+			this.finished = true;
+			Thread.sleep(220 * 3000);
 			log.info("DONE WITH COPY!!");
-			finished = true;
-			if (monResult != null)
+			if (monResult != null){
 				monResult.get();
-			Thread.sleep(220 * 1000);
+			}
 		}catch(Exception e){
 			log.error("Exception occured "+e);
 		}
@@ -67,7 +81,6 @@ public class UDTClient {
 				"SendRate(Mb/s)\tRTT(ms)\tCWnd\tPktSndPeriod(ms)\tRecvACK\tRecvNAK\tPacketSent");
 		try {
 			while (!finished) {
-
 				Thread.sleep(1000);
 				socket.updateMonitor(false);
 				System.out.printf(

@@ -240,7 +240,7 @@ public class UdtFileUploadServer {
 	                log.info("Received : "+count/1024+" SPEED: "+(count/1024)/secs + "KB/s");               
 	                if(count == actualLength){
 						try {
-							Thread.sleep(5000);
+							Thread.sleep(6000);
 						} catch (InterruptedException e) {
 							e.printStackTrace();
 						}
