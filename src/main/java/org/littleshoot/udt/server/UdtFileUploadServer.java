@@ -168,9 +168,12 @@ public class UdtFileUploadServer {
 					time(length-len);
                     copy(is, os, length, len);
                     Thread.sleep(3000);
-				} catch (final IOException  | InterruptedException e) {
-					log.info("Exception reading file...", e);
-				} finally {
+				} catch (final IOException e) {
+					log.error("Exception reading file...", e);
+				} catch (InterruptedException e){
+					log.error(e);
+				}
+				finally {
 					IOUtils.closeQuietly(is);
 					IOUtils.closeQuietly(os);
 					IOUtils.closeQuietly(sock);
