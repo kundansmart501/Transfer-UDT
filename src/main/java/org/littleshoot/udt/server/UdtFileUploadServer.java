@@ -239,7 +239,8 @@ public class UdtFileUploadServer {
 	            public void run() {
 	                final long cur = System.currentTimeMillis();
 	                final long secs = (cur - start)/1000;
-	                log.info("Received : "+count/1024+" SPEED: "+(count/1024)/secs + "KB/s");               
+	                if(secs>0)
+	                	log.info("Received : "+count/1024+" SPEED: "+(count/1024)/secs + "KB/s");               
 	                if(count == actualLength){
 						try {
 							Thread.sleep(3000);
