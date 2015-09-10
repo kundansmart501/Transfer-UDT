@@ -82,7 +82,7 @@ public class LibraryLoaderUDT implements LibraryLoader {
 		/** extract all libraries or fail */
 		for (final String sourcePath : sourceList) {
 			final String targetPath = targetFolder + sourcePath;
-			ResourceManagerUDT.extractResource(sourcePath, targetPath);
+			//ResourceManagerUDT.extractResource(sourcePath, targetPath);
 		}
 
 		/** try to load only if all are extracted */

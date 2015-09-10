@@ -7,6 +7,8 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.SocketAddress;
+import java.util.Timer;
+import java.util.TimerTask;
 import java.util.concurrent.Callable;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
@@ -23,11 +25,14 @@ import com.barchart.udt.util.LogUtil;
 
 public class UDTClient {
 	private static final Logger log = Logger.getLogger(UDTClient.class);
+	private boolean wait = false;
 	private boolean finished = false;
 	// UDT has roughly 7% congestion control overhead
 	// so we need to take that into account if we want
 	// to limit wire speed
-	private final double maxBW = 300 * 0.93;
+	private final double maxBW = 100 * 0.93;
+	private long count = 0;
+	private final long start = System.currentTimeMillis();
 	
 	public UDTClient(){
 		LogUtil.configureLog();
@@ -35,8 +40,6 @@ public class UDTClient {
 	
 	public void transferFile(String sourceFile,String targetFile,String ipAddress,int port){
 		this.finished = false;
-		final long start = System.currentTimeMillis();
-		long count = 0;
 		Future<Boolean> monResult = null;
 		try{
 			final NetSocketUDT clientSocket = new NetSocketUDT();
@@ -44,31 +47,31 @@ public class UDTClient {
 					UDPBlast.class));
 			final SocketAddress serverAddress = 
 					new InetSocketAddress(ipAddress, port);
-			//clientSocket.socketUDT().setOption(OptionUDT.UDT_MAXBW, 37050000l);
+			clientSocket.socketUDT().setOption(OptionUDT.UDT_SNDTIMEO,60000);
 			clientSocket.connect(serverAddress);
-			log.info("Connected!!");
+			log.info("Connected!! timeout "+clientSocket.getSoTimeout());
 			final Object obj = clientSocket.socketUDT().getOption(OptionUDT.UDT_CC);
 			final UDPBlast objCCC = (UDPBlast) obj;
 			objCCC.setRate((int) maxBW);
 			final File f = new File(sourceFile);
 			final FileInputStream is = new FileInputStream(f);
 			OutputStream os = clientSocket.getOutputStream();
-			monResult = Executors.newSingleThreadExecutor()
+			/*monResult = Executors.newSingleThreadExecutor()
 					.submit(new Callable<Boolean>() {
 						@Override
 						public Boolean call() {
 							return monitor(clientSocket.socketUDT());
 						}
-					});
-			//time();
+					});*/
+			time(start);
 			os.write((targetFile+"\n"+f.length()+"\n").getBytes("UTF-8"));
-			count = copy(is, os,start,count);
+			count = copy(is, os,start);
 			this.finished = true;
 			Thread.sleep(220 * 5000);
 			log.info("DONE WITH COPY!!");
-			if (monResult != null){
+			/*if (monResult != null){
 				monResult.get();
-			}
+			}*/
 			IOUtils.closeQuietly(clientSocket);
 		}catch(Exception e){
 			log.error("Exception occured "+e);
@@ -81,6 +84,10 @@ public class UDTClient {
 		System.out.println(
 				"SendRate(Mb/s)\tRTT(ms)\tCWnd\tPktSndPeriod(ms)\tRecvACK\tRecvNAK\tPacketSent");
 		try {
+			if(wait){
+				log.info("Waiting..........");
+				Thread.sleep(10000);
+			}
 			while (!finished) {
 				Thread.sleep(1000);
 				socket.updateMonitor(false);
@@ -100,8 +107,7 @@ public class UDTClient {
 		}
 	}
 	
-	private long copy(final InputStream input, final OutputStream output,final long start,
-			long count)
+	private long copy(final InputStream input, final OutputStream output,final long start)
 					throws IOException {
 
 		final int DEFAULT_BUFFER_SIZE = 1024 * 4;
@@ -111,34 +117,32 @@ public class UDTClient {
 			output.write(buffer, 0, n);
 			count += n;
 			//Tested pausing transfer for 10 secs
-			/*if(count==4096*15){
+			/*if(count == 4096*15){
 				System.out.println("Let me sleep some time !!");
 				try {
+					this.wait = true;
 					Thread.sleep(10000);
+					this.wait = false;
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
 			}*/
 		}
-		
 		final long end = System.currentTimeMillis();
 		log.info("TOTAL TIME: "+(end-start)/1000 + " seconds");
 		return count;
 	}
 
-	/*private static void time(final long start,
-			final int count) {
+	private void time(final long start) {
 		final TimerTask tt = new TimerTask() {
 			@Override
 			public void run() {
 				final long cur = System.currentTimeMillis();
 				final long secs = (cur - start)/1000;
 				log.info("TRANSFERRED: "+count/1024+" SPEED: "+(count/1024)/secs + "KB/s");
-				log.info("Thread name "+Thread.currentThread().getId());
 			}
 		};
 		final Timer t = new Timer();
 		t.schedule(tt, 2000, 2000);
-	}*/
-	
+	}
 }

@@ -1,2 +1,2 @@
 # Transfer-UDT
-Send file through UDP
+Transfer file through UDP

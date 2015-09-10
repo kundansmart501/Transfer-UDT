@@ -11,6 +11,9 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.channels.IllegalBlockingModeException;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.barchart.udt.ErrorUDT;
 import com.barchart.udt.SocketUDT;
 
@@ -18,7 +21,9 @@ import com.barchart.udt.SocketUDT;
  * {@link OutputStream} for UDT sockets.
  */
 public class NetOutputStreamUDT extends OutputStream {
-
+	
+	private final Logger log = LoggerFactory.getLogger(getClass());
+	
 	protected final SocketUDT socketUDT;
 
 	/**
@@ -63,12 +68,14 @@ public class NetOutputStreamUDT extends OutputStream {
 
 			final int count = socketUDT.send(bytes, off + len - bytesRemaining,
 					off + len);
+			
 			if (count > 0) {
 				bytesRemaining -= count;
 				continue;
 			}
 
 			if (count == 0) {
+				log.warn("Count is zero");
 				throw new ExceptionSendUDT(socketUDT.id(),
 						ErrorUDT.USER_DEFINED_MESSAGE, "UDT send time out");
 			}

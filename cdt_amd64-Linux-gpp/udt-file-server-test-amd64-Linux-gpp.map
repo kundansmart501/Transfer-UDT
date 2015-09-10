@@ -1,0 +1,1879 @@
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbeginS.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNICCC.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNICCC.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNICCC.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNICCC.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNICCC.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNICCC.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNICCC.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/jni/JNICCC.o
+ .group         0x0000000000000000        0xc src/main/c++/jni/JNICCCFactory.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNICCCFactory.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNICCCFactory.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNICCCFactory.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNICCCFactory.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNICCCFactory.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNICCCFactory.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNICCCFactory.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNICCCFactory.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 src/main/c++/jni/JNICCCFactory.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/jni/JNICCCFactory.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNIHelpers.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNIHelpers.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNIHelpers.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/JNIHelpers.o
+ .text._ZN7JNIEnv_16CallObjectMethodEP8_jobjectP10_jmethodIDz
+                0x0000000000000000       0x83 src/main/c++/jni/JNIHelpers.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/jni/JNIHelpers.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/com_barchart_udt_CCC.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 src/main/c++/jni/com_barchart_udt_CCC.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/jni/com_barchart_udt_CCC.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .group         0x0000000000000000        0x8 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .text._ZN7JNIEnv_9NewObjectEP7_jclassP10_jmethodIDz
+                0x0000000000000000       0x83 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .text._ZN7JNIEnv_16CallObjectMethodEP8_jobjectP10_jmethodIDz
+                0x0000000000000000       0x83 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .text._ZN7JNIEnv_13CallIntMethodEP8_jobjectP10_jmethodIDz
+                0x0000000000000000       0x83 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE8_M_eraseEPSt13_Rb_tree_nodeIiE
+                0x0000000000000000       0x4b src/main/c++/udt/src/api.o
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE10_M_insert_EPKSt18_Rb_tree_node_baseS8_RKi
+                0x0000000000000000       0x9b src/main/c++/udt/src/api.o
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE16_M_insert_uniqueERKi
+                0x0000000000000000       0xab src/main/c++/udt/src/api.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 src/main/c++/udt/src/api.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/udt/src/api.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/buffer.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 src/main/c++/udt/src/buffer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/udt/src/buffer.o
+ .group         0x0000000000000000        0xc src/main/c++/udt/src/cache.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/cache.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/cache.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/cache.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/cache.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/udt/src/cache.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/ccc.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/ccc.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/ccc.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/ccc.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/ccc.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/ccc.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/ccc.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/ccc.o
+ .group         0x0000000000000000        0xc src/main/c++/udt/src/ccc.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/ccc.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/ccc.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/ccc.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/ccc.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/ccc.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/ccc.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/ccc.o
+ .text._ZN3CCC5onACKEi
+                0x0000000000000000        0x6 src/main/c++/udt/src/ccc.o
+ .text._ZN3CCC6onLossEPKii
+                0x0000000000000000        0x6 src/main/c++/udt/src/ccc.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 src/main/c++/udt/src/ccc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/udt/src/ccc.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/channel.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 src/main/c++/udt/src/channel.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/udt/src/channel.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/common.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/common.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/udt/src/common.o
+ .group         0x0000000000000000        0xc src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0xc src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .text._ZN17CCCVirtualFactoryD2Ev
+                0x0000000000000000       0x14 src/main/c++/udt/src/core.o
+ .text._ZN17CCCVirtualFactoryD0Ev
+                0x0000000000000000       0x18 src/main/c++/udt/src/core.o
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE8_M_eraseEPSt13_Rb_tree_nodeIiE
+                0x0000000000000000       0x4b src/main/c++/udt/src/core.o
+ .text._ZNSt3setIiSt4lessIiESaIiEED2Ev
+                0x0000000000000000        0xe src/main/c++/udt/src/core.o
+ .text._ZNSt4listISt14_List_iteratorIP10CInfoBlockESaIS3_EEaSERKS5_
+                0x0000000000000000      0x11e src/main/c++/udt/src/core.o
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE5eraseERKi
+                0x0000000000000000      0x16e src/main/c++/udt/src/core.o
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE10_M_insert_EPKSt18_Rb_tree_node_baseS8_RKi
+                0x0000000000000000       0x9b src/main/c++/udt/src/core.o
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE16_M_insert_uniqueERKi
+                0x0000000000000000       0xab src/main/c++/udt/src/core.o
+ .data.rel.ro._ZTV17CCCVirtualFactory
+                0x0000000000000000       0x30 src/main/c++/udt/src/core.o
+ .data.rel.ro._ZTI17CCCVirtualFactory
+                0x0000000000000000       0x10 src/main/c++/udt/src/core.o
+ .rodata._ZTS17CCCVirtualFactory
+                0x0000000000000000       0x14 src/main/c++/udt/src/core.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 src/main/c++/udt/src/core.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/udt/src/core.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/epoll.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/epoll.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/epoll.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/epoll.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/epoll.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/epoll.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/epoll.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/epoll.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/epoll.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/epoll.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/epoll.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/epoll.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/epoll.o
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE8_M_eraseEPSt13_Rb_tree_nodeIiE
+                0x0000000000000000       0x4b src/main/c++/udt/src/epoll.o
+ .text._ZNSt3setIiSt4lessIiESaIiEED2Ev
+                0x0000000000000000        0xe src/main/c++/udt/src/epoll.o
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE5eraseERKi
+                0x0000000000000000      0x16e src/main/c++/udt/src/epoll.o
+ .text._ZNSt6vectorIiSaIiEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPiS1_EERKi
+                0x0000000000000000      0x1b2 src/main/c++/udt/src/epoll.o
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE7_M_copyEPKSt13_Rb_tree_nodeIiEPS7_
+                0x0000000000000000      0x111 src/main/c++/udt/src/epoll.o
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE10_M_insert_EPKSt18_Rb_tree_node_baseS8_RKi
+                0x0000000000000000       0x9b src/main/c++/udt/src/epoll.o
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE16_M_insert_uniqueERKi
+                0x0000000000000000       0xab src/main/c++/udt/src/epoll.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 src/main/c++/udt/src/epoll.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/udt/src/epoll.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/udt/src/list.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/udt/src/md5.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/packet.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 src/main/c++/udt/src/packet.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/udt/src/packet.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/queue.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/queue.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/queue.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/queue.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/queue.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/queue.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/queue.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/queue.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/queue.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/queue.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 src/main/c++/udt/src/queue.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/udt/src/queue.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/window.o
+ .group         0x0000000000000000        0x8 src/main/c++/udt/src/window.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 src/main/c++/udt/src/window.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbeginS.o
+LOAD src/main/c++/jni/JNICCC.o
+LOAD src/main/c++/jni/JNICCCFactory.o
+LOAD src/main/c++/jni/JNIHelpers.o
+LOAD src/main/c++/jni/com_barchart_udt_CCC.o
+LOAD src/main/c++/jni/com_barchart_udt_SocketUDT.o
+LOAD src/main/c++/udt/src/api.o
+LOAD src/main/c++/udt/src/buffer.o
+LOAD src/main/c++/udt/src/cache.o
+LOAD src/main/c++/udt/src/ccc.o
+LOAD src/main/c++/udt/src/channel.o
+LOAD src/main/c++/udt/src/common.o
+LOAD src/main/c++/udt/src/core.o
+LOAD src/main/c++/udt/src/epoll.o
+LOAD src/main/c++/udt/src/list.o
+LOAD src/main/c++/udt/src/md5.o
+LOAD src/main/c++/udt/src/packet.o
+LOAD src/main/c++/udt/src/queue.o
+LOAD src/main/c++/udt/src/window.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000001c8                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+                0x00000000000001c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000001c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000001f0     0x1514
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000001f0     0x1514 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x0000000000001708     0x4d88
+ *(.dynsym)
+ .dynsym        0x0000000000001708     0x4d88 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000006490     0x6673
+ *(.dynstr)
+ .dynstr        0x0000000000006490     0x6673 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x000000000000cb04      0x676
+ *(.gnu.version)
+ .gnu.version   0x000000000000cb04      0x676 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x000000000000d180        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x000000000000d180       0xe0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x000000000000d180       0xe0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x000000000000d260      0xf90
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel
+                0x000000000000d260       0x18 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTI6JNICCC
+                0x000000000000d278       0x48 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTV6JNICCC
+                0x000000000000d2c0      0x108 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.DW.ref.__gxx_personality_v0
+                0x000000000000d3c8       0x18 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTI13JNICCCFactory
+                0x000000000000d3e0       0x48 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTV13JNICCCFactory
+                0x000000000000d428       0x78 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTV17CCCVirtualFactory
+                0x000000000000d4a0       0x78 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTI17CCCVirtualFactory
+                0x000000000000d518       0x30 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.DW.ref._ZTI13CUDTException
+                0x000000000000d548       0x18 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.DW.ref._ZTISt9bad_alloc
+                0x000000000000d560       0x18 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTI10CInfoBlock
+                0x000000000000d578       0x30 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTV10CInfoBlock
+                0x000000000000d5a8       0xc0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTI3CCC
+                0x000000000000d668       0x30 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTI6CUDTCC
+                0x000000000000d698       0x48 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTV3CCC
+                0x000000000000d6e0      0x108 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTV6CUDTCC
+                0x000000000000d7e8      0x108 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTI13CUDTException
+                0x000000000000d8f0       0x30 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTV13CUDTException
+                0x000000000000d920       0x90 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTV10CCCFactoryI6CUDTCCE
+                0x000000000000d9b0       0x78 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTI10CCCFactoryI6CUDTCCE
+                0x000000000000da28       0x48 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ .rela.ctors    0x000000000000da70       0x48 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x000000000000dab8      0x738 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.eh_frame
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .rela.gcc_except_table
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x000000000000e1f0     0x2ee0
+ *(.rela.plt)
+ .rela.plt      0x000000000000e1f0     0x2ee0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+
+.init           0x00000000000110d0       0x18
+ *(.init)
+ .init          0x00000000000110d0        0x9 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+                0x00000000000110d0                _init
+ .init          0x00000000000110d9        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbeginS.o
+ .init          0x00000000000110de        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtendS.o
+ .init          0x00000000000110e3        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x00000000000110f0     0x1f50
+ *(.plt)
+ .plt           0x00000000000110f0     0x1f50 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.text           0x0000000000013040    0x227f8
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x0000000000013040       0x2b src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ *fill*         0x000000000001306b        0x5 90909090
+ .text.startup  0x0000000000013070       0x15 src/main/c++/udt/src/common.o
+ *fill*         0x0000000000013085        0xb 90909090
+ .text.startup  0x0000000000013090       0x34 src/main/c++/udt/src/core.o
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00000000000130c4       0x17 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ *fill*         0x00000000000130db        0x5 90909090
+ .text          0x00000000000130e0       0xaa /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbeginS.o
+ *fill*         0x000000000001318a        0x6 90909090
+ .text          0x0000000000013190      0x47a src/main/c++/jni/JNICCC.o
+                0x0000000000013190                _ZN6JNICCC9onPktSentEPK7CPacket
+                0x00000000000131a0                _ZN6JNICCC13onPktReceivedEPK7CPacket
+                0x00000000000131b0                _ZN6JNICCC16processCustomMsgEPK7CPacket
+                0x00000000000131c0                _Z11AttachToJVMP7JavaVM_
+                0x0000000000013220                _ZN6JNICCC9onTimeoutEv
+                0x0000000000013270                _ZN6JNICCC5closeEv
+                0x00000000000132c0                _ZN6JNICCC4initEv
+                0x0000000000013310                _ZN6JNICCCD1Ev
+                0x0000000000013310                _ZN6JNICCCD2Ev
+                0x0000000000013380                _ZN6JNICCCD0Ev
+                0x00000000000133a0                _ZN6JNICCCC1EP7JNIEnv_P8_jobject
+                0x00000000000133a0                _ZN6JNICCCC2EP7JNIEnv_P8_jobject
+                0x0000000000013520                _ZN6JNICCC10getJavaCCCEv
+                0x0000000000013530                _ZN6JNICCC5onACKERKi
+                0x00000000000135a0                _ZN6JNICCC6onLossEPKiRS0_
+                0x00000000000135b0                _ZN6JNICCC11setACKTimerERKi
+                0x00000000000135c0                _ZN6JNICCC14setACKIntervalERKi
+                0x00000000000135d0                _ZN6JNICCC6setRTOERKi
+                0x00000000000135e0                _ZN6JNICCC18setPacketSndPeriodEd
+                0x00000000000135f0                _ZN6JNICCC11setCWndSizeEd
+                0x0000000000013600                _ZN6JNICCC11getPerfInfoEv
+ *fill*         0x000000000001360a        0x6 90909090
+ .text._ZN3CCC5onACKEi
+                0x0000000000013610        0x6 src/main/c++/jni/JNICCC.o
+                0x0000000000013610                _ZN3CCC5onACKEi
+ *fill*         0x0000000000013616        0xa 90909090
+ .text._ZN3CCC6onLossEPKii
+                0x0000000000013620        0x6 src/main/c++/jni/JNICCC.o
+                0x0000000000013620                _ZN3CCC6onLossEPKii
+ *fill*         0x0000000000013626        0xa 90909090
+ .text._ZN7JNIEnv_14CallVoidMethodEP8_jobjectP10_jmethodIDz
+                0x0000000000013630       0x83 src/main/c++/jni/JNICCC.o
+                0x0000000000013630                _ZN7JNIEnv_14CallVoidMethodEP8_jobjectP10_jmethodIDz
+ *fill*         0x00000000000136b3        0xd 90909090
+ .text          0x00000000000136c0      0x309 src/main/c++/jni/JNICCCFactory.o
+                0x00000000000136c0                _ZN13JNICCCFactory12initJNITypesEP7JNIEnv_
+                0x0000000000013770                _ZN13JNICCCFactory11AttachToJVMEv
+                0x00000000000137d0                _ZN13JNICCCFactory6createEv
+                0x0000000000013850                _ZN13JNICCCFactoryD2Ev
+                0x0000000000013850                _ZN13JNICCCFactoryD1Ev
+                0x00000000000138b0                _ZN13JNICCCFactoryD0Ev
+                0x00000000000138d0                _ZN13JNICCCFactoryC1EP7JNIEnv_P8_jobject
+                0x00000000000138d0                _ZN13JNICCCFactoryC2EP7JNIEnv_P8_jobject
+                0x0000000000013950                _ZN13JNICCCFactory5cloneEv
+ *fill*         0x00000000000139c9        0x7 90909090
+ .text._ZN17CCCVirtualFactoryD2Ev
+                0x00000000000139d0       0x14 src/main/c++/jni/JNICCCFactory.o
+                0x00000000000139d0                _ZN17CCCVirtualFactoryD1Ev
+                0x00000000000139d0                _ZN17CCCVirtualFactoryD2Ev
+ *fill*         0x00000000000139e4        0xc 90909090
+ .text._ZN17CCCVirtualFactoryD0Ev
+                0x00000000000139f0       0x18 src/main/c++/jni/JNICCCFactory.o
+                0x00000000000139f0                _ZN17CCCVirtualFactoryD0Ev
+ *fill*         0x0000000000013a08        0x8 90909090
+ .text._ZN7JNIEnv_16CallObjectMethodEP8_jobjectP10_jmethodIDz
+                0x0000000000013a10       0x83 src/main/c++/jni/JNICCCFactory.o
+                0x0000000000013a10                _ZN7JNIEnv_16CallObjectMethodEP8_jobjectP10_jmethodIDz
+ *fill*         0x0000000000013a93        0xd 90909090
+ .text          0x0000000000013aa0      0x85d src/main/c++/jni/JNIHelpers.o
+                0x0000000000013aa0                X_InitClassReference
+                0x0000000000013b60                X_FreeClassReference
+                0x0000000000013bf0                X_NewBoolean
+                0x0000000000013c50                X_NewInteger
+                0x0000000000013cb0                X_NewLong
+                0x0000000000013d10                X_InitSockAddr
+                0x0000000000013d60                _Z29X_ConvertInetAddressToIntegerP7JNIEnv_P8_jobjectPi
+                0x0000000000013ed0                X_ConvertInetSocketAddressToSockaddr
+                0x0000000000013fd0                X_NewInetAddress
+                0x00000000000140e0                X_NewInetSocketAddress
+                0x00000000000141c0                X_IsSockaddrEqualsInetSocketAddress
+ *fill*         0x00000000000142fd        0x3 90909090
+ .text._ZN7JNIEnv_9NewObjectEP7_jclassP10_jmethodIDz
+                0x0000000000014300       0x83 src/main/c++/jni/JNIHelpers.o
+                0x0000000000014300                _ZN7JNIEnv_9NewObjectEP7_jclassP10_jmethodIDz
+ *fill*         0x0000000000014383        0xd 90909090
+ .text._ZN7JNIEnv_13CallIntMethodEP8_jobjectP10_jmethodIDz
+                0x0000000000014390       0x83 src/main/c++/jni/JNIHelpers.o
+                0x0000000000014390                _ZN7JNIEnv_13CallIntMethodEP8_jobjectP10_jmethodIDz
+ *fill*         0x0000000000014413        0xd 90909090
+ .text._ZN7JNIEnv_22CallStaticObjectMethodEP7_jclassP10_jmethodIDz
+                0x0000000000014420       0x83 src/main/c++/jni/JNIHelpers.o
+                0x0000000000014420                _ZN7JNIEnv_22CallStaticObjectMethodEP7_jclassP10_jmethodIDz
+ *fill*         0x00000000000144a3        0xd 90909090
+ .text          0x00000000000144b0      0x233 src/main/c++/jni/com_barchart_udt_CCC.o
+                0x00000000000144b0                _Z15getNativeJNICCCP7JNIEnv_P8_jobject
+                0x0000000000014530                Java_com_barchart_udt_CCC_initNative
+                0x00000000000145c0                Java_com_barchart_udt_CCC_setACKTimer
+                0x00000000000145f0                Java_com_barchart_udt_CCC_setACKInterval
+                0x0000000000014620                Java_com_barchart_udt_CCC_setRTO
+                0x0000000000014650                Java_com_barchart_udt_CCC_setPacketSndPeriod
+                0x0000000000014680                Java_com_barchart_udt_CCC_setCWndSize
+                0x00000000000146b0                Java_com_barchart_udt_CCC_getPerfInfo
+ *fill*         0x00000000000146e3        0xd 90909090
+ .text          0x00000000000146f0     0x39ad src/main/c++/jni/com_barchart_udt_SocketUDT.o
+                0x00000000000146f0                _Z17X_PrintStackTracev
+                0x0000000000014780                XXX_ThrowSocketExceptionMessage
+                0x0000000000014810                UDT_NewLingerUDT
+                0x00000000000148e0                UDT_GetSocketID
+                0x0000000000014900                UDT_SetSocketID
+                0x0000000000014920                UDT_NewExceptionUDT
+                0x00000000000149d0                UDT_ThrowExceptionUDT_Message
+                0x0000000000014a80                UDT_ThrowExceptionUDT_ErrorInfo
+                0x0000000000014b60                UDT_InitFieldMonitor
+                0x0000000000014fd0                UDT_InitClassRefAll
+                0x0000000000015140                UDT_FreeClassRefAll
+                0x0000000000015240                UDT_InitFieldRefAll
+                0x0000000000015380                X_InitMethodRef
+                0x00000000000153f0                UDT_InitMethodRefAll
+                0x00000000000157e0                Java_com_barchart_udt_SocketUDT_getSignatureJNI0
+                0x00000000000157f0                Java_com_barchart_udt_SocketUDT_initClass0
+                0x0000000000015880                Java_com_barchart_udt_SocketUDT_stopClass0
+                0x0000000000015900                Java_com_barchart_udt_SocketUDT_initInstance0
+                0x00000000000159a0                Java_com_barchart_udt_SocketUDT_initInstance1
+                0x0000000000015a20                Java_com_barchart_udt_SocketUDT_accept0
+                0x0000000000015bb0                Java_com_barchart_udt_SocketUDT_bind0
+                0x0000000000015cf0                Java_com_barchart_udt_SocketUDT_close0
+                0x0000000000015d80                Java_com_barchart_udt_SocketUDT_connect0
+                0x0000000000015ec0                Java_com_barchart_udt_SocketUDT_hasLoadedRemoteSocketAddress
+                0x0000000000015f90                Java_com_barchart_udt_SocketUDT_hasLoadedLocalSocketAddress
+                0x0000000000016060                Java_com_barchart_udt_SocketUDT_getOption0
+                0x0000000000016260                Java_com_barchart_udt_SocketUDT_setOption0
+                0x0000000000016570                Java_com_barchart_udt_SocketUDT_listen0
+                0x0000000000016610                X_IsValidRange
+                0x0000000000016670                UDT_ReturnReceiveError
+                0x00000000000166f0                Java_com_barchart_udt_SocketUDT_receive0
+                0x0000000000016820                Java_com_barchart_udt_SocketUDT_receive1
+                0x00000000000169a0                Java_com_barchart_udt_SocketUDT_receive2
+                0x0000000000016ab0                Java_com_barchart_udt_SocketUDT_receiveFile0
+                0x0000000000016b70                UDT_ReturnSendError
+                0x0000000000016bf0                Java_com_barchart_udt_SocketUDT_send0
+                0x0000000000016d10                Java_com_barchart_udt_SocketUDT_send1
+                0x0000000000016ef0                Java_com_barchart_udt_SocketUDT_send2
+                0x0000000000017020                Java_com_barchart_udt_SocketUDT_sendFile0
+                0x00000000000170e0                Java_com_barchart_udt_SocketUDT_getErrorCode0
+                0x0000000000017100                Java_com_barchart_udt_SocketUDT_getErrorMessage0
+                0x0000000000017160                Java_com_barchart_udt_SocketUDT_clearError0
+                0x0000000000017180                Java_com_barchart_udt_SocketUDT_updateMonitor0
+                0x00000000000175e0                UDT_CopySetToArray
+                0x0000000000017630                Java_com_barchart_udt_SocketUDT_getStatus0
+                0x0000000000017650                Java_com_barchart_udt_SocketUDT_epollCreate0
+                0x00000000000176c0                Java_com_barchart_udt_SocketUDT_epollRelease0
+                0x0000000000017740                Java_com_barchart_udt_SocketUDT_epollAdd0
+                0x00000000000177d0                Java_com_barchart_udt_SocketUDT_epollRemove0
+                0x0000000000017860                Java_com_barchart_udt_SocketUDT_epollUpdate0
+                0x00000000000178d0                Java_com_barchart_udt_SocketUDT_epollVerify0
+                0x0000000000017940                Java_com_barchart_udt_SocketUDT_testEmptyCall0
+                0x0000000000017950                Java_com_barchart_udt_SocketUDT_testIterateArray0
+                0x00000000000179b0                Java_com_barchart_udt_SocketUDT_testIterateSet0
+                0x0000000000017a20                Java_com_barchart_udt_SocketUDT_testMakeArray0
+                0x0000000000017a40                Java_com_barchart_udt_SocketUDT_testGetSetArray0
+                0x0000000000017ac0                Java_com_barchart_udt_SocketUDT_testInvalidClose0
+                0x0000000000017b50                Java_com_barchart_udt_SocketUDT_testCrashJVM0
+                0x0000000000017b70                Java_com_barchart_udt_SocketUDT_testDirectByteBufferAccess0
+                0x0000000000017bf0                Java_com_barchart_udt_SocketUDT_testDirectIntBufferAccess0
+                0x0000000000017c90                Java_com_barchart_udt_SocketUDT_testFillArray0
+                0x0000000000017d00                Java_com_barchart_udt_SocketUDT_testFillBuffer0
+                0x0000000000017d60                Java_com_barchart_udt_SocketUDT_testDirectIntBufferLoad0
+                0x0000000000017da0                Java_com_barchart_udt_SocketUDT_epollWait0
+                0x0000000000018040                UDT_CopyArrayToSet
+ *fill*         0x000000000001809d        0x3 90909090
+ .text._ZN7JNIEnv_17CallBooleanMethodEP8_jobjectP10_jmethodIDz
+                0x00000000000180a0       0x83 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+                0x00000000000180a0                _ZN7JNIEnv_17CallBooleanMethodEP8_jobjectP10_jmethodIDz
+ *fill*         0x0000000000018123        0xd 90909090
+ .text._ZN7JNIEnv_14CallLongMethodEP8_jobjectP10_jmethodIDz
+                0x0000000000018130       0x83 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+                0x0000000000018130                _ZN7JNIEnv_14CallLongMethodEP8_jobjectP10_jmethodIDz
+ *fill*         0x00000000000181b3        0xd 90909090
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE8_M_eraseEPSt13_Rb_tree_nodeIiE
+                0x00000000000181c0       0x4b src/main/c++/jni/com_barchart_udt_SocketUDT.o
+                0x00000000000181c0                _ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE8_M_eraseEPSt13_Rb_tree_nodeIiE
+ *fill*         0x000000000001820b        0x5 90909090
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE10_M_insert_EPKSt18_Rb_tree_node_baseS8_RKi
+                0x0000000000018210       0x9b src/main/c++/jni/com_barchart_udt_SocketUDT.o
+                0x0000000000018210                _ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE10_M_insert_EPKSt18_Rb_tree_node_baseS8_RKi
+ *fill*         0x00000000000182ab        0x5 90909090
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE16_M_insert_uniqueERKi
+                0x00000000000182b0       0xab src/main/c++/jni/com_barchart_udt_SocketUDT.o
+                0x00000000000182b0                _ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE16_M_insert_uniqueERKi
+ *fill*         0x000000000001835b        0x5 90909090
+ .text          0x0000000000018360     0x7c35 src/main/c++/udt/src/api.o
+                0x0000000000018360                _ZN10CUDTSocketC2Ev
+                0x0000000000018360                _ZN10CUDTSocketC1Ev
+                0x0000000000018450                _ZN10CUDTUnited7startupEv
+                0x0000000000018500                _ZN10CUDTUnited7cleanupEv
+                0x00000000000185b0                _ZN10CUDTUnited6lookupEi
+                0x0000000000018690                _ZN10CUDTUnited9getStatusEi
+                0x0000000000018780                _ZN10CUDTUnited12epoll_createEv
+                0x00000000000187a0                _ZN10CUDTUnited15epoll_add_ssockEiiPKi
+                0x00000000000187c0                _ZN10CUDTUnited18epoll_remove_ssockEii
+                0x00000000000187e0                _ZN10CUDTUnited10epoll_waitEiPSt3setIiSt4lessIiESaIiEES5_lS5_S5_
+                0x0000000000018800                _ZN10CUDTUnited13epoll_releaseEi
+                0x0000000000018820                _ZN10CUDTUnited6locateEi
+                0x00000000000188b0                _ZN10CUDTUnited18epoll_remove_usockEii
+                0x0000000000018910                _ZN10CUDTUnited15epoll_add_usockEiiPKi
+                0x00000000000189d0                _ZN10CUDTUnited11getsocknameEiP8sockaddrPi
+                0x0000000000018ad0                _ZN10CUDTUnited16connect_completeEi
+                0x0000000000018b80                _ZN10CUDTUnited11getpeernameEiP8sockaddrPi
+                0x0000000000018cd0                _ZN10CUDTUnited6locateEPK8sockaddrii
+                0x0000000000018e10                _ZN10CUDTUnited8setErrorEP13CUDTException
+                0x0000000000018e60                _ZN10CUDTUnited8getErrorEv
+                0x0000000000018ef0                _ZN10CUDTUnited9updateMuxEP10CUDTSocketPKS0_
+                0x0000000000018fb0                _ZN4CUDT7startupEv
+                0x0000000000018fd0                _ZN4CUDT7cleanupEv
+                0x0000000000018ff0                _ZN4CUDT11getpeernameEiP8sockaddrPi
+                0x0000000000019110                _ZN4CUDT11getsocknameEiP8sockaddrPi
+                0x0000000000019230                _ZN4CUDT10getsockoptEii6UDTOptPvPi
+                0x0000000000019370                _ZN4CUDT10setsockoptEii6UDTOptPKvi
+                0x00000000000194b0                _ZN4CUDT4sendEiPKcii
+                0x0000000000019650                _ZN4CUDT4recvEiPcii
+                0x0000000000019780                _ZN4CUDT7sendmsgEiPKciib
+                0x0000000000019940                _ZN4CUDT7recvmsgEiPci
+                0x0000000000019a70                _ZN4CUDT8sendfileEiRSt13basic_fstreamIcSt11char_traitsIcEERlli
+                0x0000000000019c50                _ZN4CUDT8recvfileEiRSt13basic_fstreamIcSt11char_traitsIcEERlli
+                0x0000000000019dc0                _ZN4CUDT12epoll_createEv
+                0x0000000000019ed0                _ZN4CUDT15epoll_add_usockEiiPKi
+                0x0000000000019ff0                _ZN4CUDT15epoll_add_ssockEiiPKi
+                0x000000000001a110                _ZN4CUDT18epoll_remove_usockEii
+                0x000000000001a230                _ZN4CUDT18epoll_remove_ssockEii
+                0x000000000001a350                _ZN4CUDT10epoll_waitEiPSt3setIiSt4lessIiESaIiEES5_lS5_S5_
+                0x000000000001a470                _ZN4CUDT13epoll_releaseEi
+                0x000000000001a580                _ZN4CUDT12getlasterrorEv
+                0x000000000001a5a0                _ZN4CUDT7perfmonEiP8CPerfMonb
+                0x000000000001a6d0                _ZN4CUDT12getUDTHandleEi
+                0x000000000001a700                _ZN4CUDT12getsockstateEi
+                0x000000000001a790                _ZN3UDT7startupEv
+                0x000000000001a7a0                _ZN3UDT7cleanupEv
+                0x000000000001a7b0                _ZN3UDT11getpeernameEiP8sockaddrPi
+                0x000000000001a7c0                _ZN3UDT11getsocknameEiP8sockaddrPi
+                0x000000000001a7d0                _ZN3UDT10getsockoptEii6UDTOptPvPi
+                0x000000000001a7e0                _ZN3UDT10setsockoptEii6UDTOptPKvi
+                0x000000000001a7f0                _ZN3UDT4sendEiPKcii
+                0x000000000001a800                _ZN3UDT4recvEiPcii
+                0x000000000001a810                _ZN3UDT7sendmsgEiPKciib
+                0x000000000001a820                _ZN3UDT7recvmsgEiPci
+                0x000000000001a830                _ZN3UDT8sendfileEiRSt13basic_fstreamIcSt11char_traitsIcEERlli
+                0x000000000001a840                _ZN3UDT8recvfileEiRSt13basic_fstreamIcSt11char_traitsIcEERlli
+                0x000000000001a850                _ZN3UDT9sendfile2EiPKcPlli
+                0x000000000001acc0                _ZN3UDT9recvfile2EiPKcPlli
+                0x000000000001b130                _ZN3UDT12epoll_createEv
+                0x000000000001b140                _ZN3UDT15epoll_add_usockEiiPKi
+                0x000000000001b150                _ZN3UDT15epoll_add_ssockEiiPKi
+                0x000000000001b160                _ZN3UDT18epoll_remove_usockEii
+                0x000000000001b170                _ZN3UDT18epoll_remove_ssockEii
+                0x000000000001b180                _ZN3UDT10epoll_waitEiPSt3setIiSt4lessIiESaIiEES5_lS5_S5_
+                0x000000000001b190                _ZN3UDT13epoll_releaseEi
+                0x000000000001b1a0                _ZN3UDT12getlasterrorEv
+                0x000000000001b1b0                _ZN3UDT17getlasterror_codeEv
+                0x000000000001b1d0                _ZN3UDT17getlasterror_descEv
+                0x000000000001b1f0                _ZN3UDT7perfmonEiP8CPerfMonb
+                0x000000000001b200                _ZN3UDT12getsockstateEi
+                0x000000000001b210                _ZN10CUDTUnited6listenEii
+                0x000000000001b4a0                _ZN4CUDT6listenEii
+                0x000000000001b600                _ZN3UDT6listenEii
+                0x000000000001b610                _ZN3UDT11epoll_wait2EiPiS0_S0_S0_lS0_S0_S0_S0_
+                0x000000000001bb30                _ZN10CUDTSocketD1Ev
+                0x000000000001bb30                _ZN10CUDTSocketD2Ev
+                0x000000000001bbd0                _ZN10CUDTUnitedD2Ev
+                0x000000000001bbd0                _ZN10CUDTUnitedD1Ev
+                0x000000000001be30                _ZN10CUDTUnited8selectExERKSt6vectorIiSaIiEEPS2_S5_S5_l
+                0x000000000001c0b0                _ZN4CUDT8selectExERKSt6vectorIiSaIiEEPS2_S5_S5_l
+                0x000000000001c2a0                _ZN3UDT8selectExERKSt6vectorIiSaIiEEPS2_S5_S5_l
+                0x000000000001c2b0                _ZN10CUDTUnited6acceptEiP8sockaddrPi
+                0x000000000001c610                _ZN4CUDT6acceptEiP8sockaddrPi
+                0x000000000001c700                _ZN3UDT6acceptEiP8sockaddrPi
+                0x000000000001c710                _ZN10CUDTUnited9newSocketEii
+                0x000000000001c9f0                _ZN4CUDT6socketEiii
+                0x000000000001cb70                _ZN3UDT6socketEiii
+                0x000000000001cb80                _ZN10CUDTUnited6selectEPSt3setIiSt4lessIiESaIiEES5_S5_PK7timeval
+                0x000000000001d380                _ZN4CUDT6selectEiPSt3setIiSt4lessIiESaIiEES5_S5_PK7timeval
+                0x000000000001d570                _ZN3UDT6selectEiPSt3setIiSt4lessIiESaIiEES5_S5_PK7timeval
+                0x000000000001d580                _ZN10CUDTUnited5closeEi
+                0x000000000001d740                _ZN4CUDT5closeEi
+                0x000000000001d850                _ZN3UDT5closeEi
+                0x000000000001d860                _ZN10CUDTUnited12removeSocketEi
+                0x000000000001dda0                _ZN10CUDTUnited18checkBrokenSocketsEv
+                0x000000000001e240                _ZN10CUDTUnited14garbageCollectEPv
+                0x000000000001e550                _ZN10CUDTUnited13newConnectionEiPK8sockaddrP10CHandShake
+                0x000000000001eb60                _ZN10CUDTUnited9updateMuxEP10CUDTSocketPK8sockaddrPKi
+                0x000000000001f050                _ZN10CUDTUnited7connectEiPK8sockaddri
+                0x000000000001f370                _ZN4CUDT7connectEiPK8sockaddri
+                0x000000000001f500                _ZN3UDT7connectEiPK8sockaddri
+                0x000000000001f510                _ZN10CUDTUnited4bindEii
+                0x000000000001f6f0                _ZN4CUDT4bindEii
+                0x000000000001f850                _ZN3UDT5bind2Eii
+                0x000000000001f860                _ZN10CUDTUnited4bindEiPK8sockaddri
+                0x000000000001fa40                _ZN4CUDT4bindEiPK8sockaddri
+                0x000000000001fba0                _ZN3UDT4bindEiPK8sockaddri
+                0x000000000001fbb0                _ZN10CUDTUnitedC1Ev
+                0x000000000001fbb0                _ZN10CUDTUnitedC2Ev
+ *fill*         0x000000000001ff95        0xb 90909090
+ .text._ZN10CUDTUnited10TLSDestroyEPv
+                0x000000000001ffa0       0x1a src/main/c++/udt/src/api.o
+                0x000000000001ffa0                _ZN10CUDTUnited10TLSDestroyEPv
+ *fill*         0x000000000001ffba        0x6 90909090
+ .text._ZNSt3setIiSt4lessIiESaIiEED2Ev
+                0x000000000001ffc0        0xe src/main/c++/udt/src/api.o
+                0x000000000001ffc0                _ZNSt3setIiSt4lessIiESaIiEED1Ev
+                0x000000000001ffc0                _ZNSt3setIiSt4lessIiESaIiEED2Ev
+ *fill*         0x000000000001ffce        0x2 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKiP10CUDTSocketESt10_Select1stIS4_ESt4lessIiESaIS4_EE8_M_eraseEPSt13_Rb_tree_nodeIS4_E
+                0x000000000001ffd0       0x4b src/main/c++/udt/src/api.o
+                0x000000000001ffd0                _ZNSt8_Rb_treeIiSt4pairIKiP10CUDTSocketESt10_Select1stIS4_ESt4lessIiESaIS4_EE8_M_eraseEPSt13_Rb_tree_nodeIS4_E
+ *fill*         0x000000000002001b        0x5 90909090
+ .text._ZNSt3mapIiP10CUDTSocketSt4lessIiESaISt4pairIKiS1_EEED2Ev
+                0x0000000000020020        0xe src/main/c++/udt/src/api.o
+                0x0000000000020020                _ZNSt3mapIiP10CUDTSocketSt4lessIiESaISt4pairIKiS1_EEED1Ev
+                0x0000000000020020                _ZNSt3mapIiP10CUDTSocketSt4lessIiESaISt4pairIKiS1_EEED2Ev
+ *fill*         0x000000000002002e        0x2 90909090
+ .text._ZNSt8_Rb_treeIlSt4pairIKlSt3setIiSt4lessIiESaIiEEESt10_Select1stIS7_ES3_IlESaIS7_EE8_M_eraseEPSt13_Rb_tree_nodeIS7_E
+                0x0000000000020030       0x58 src/main/c++/udt/src/api.o
+                0x0000000000020030                _ZNSt8_Rb_treeIlSt4pairIKlSt3setIiSt4lessIiESaIiEEESt10_Select1stIS7_ES3_IlESaIS7_EE8_M_eraseEPSt13_Rb_tree_nodeIS7_E
+ *fill*         0x0000000000020088        0x8 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKi12CMultiplexerESt10_Select1stIS3_ESt4lessIiESaIS3_EE8_M_eraseEPSt13_Rb_tree_nodeIS3_E
+                0x0000000000020090       0x4b src/main/c++/udt/src/api.o
+                0x0000000000020090                _ZNSt8_Rb_treeIiSt4pairIKi12CMultiplexerESt10_Select1stIS3_ESt4lessIiESaIS3_EE8_M_eraseEPSt13_Rb_tree_nodeIS3_E
+ *fill*         0x00000000000200db        0x5 90909090
+ .text._ZNSt6vectorISt4listISt14_List_iteratorIP10CInfoBlockESaIS4_EESaIS6_EED2Ev
+                0x00000000000200e0       0x6a src/main/c++/udt/src/api.o
+                0x00000000000200e0                _ZNSt6vectorISt4listISt14_List_iteratorIP10CInfoBlockESaIS4_EESaIS6_EED2Ev
+                0x00000000000200e0                _ZNSt6vectorISt4listISt14_List_iteratorIP10CInfoBlockESaIS4_EESaIS6_EED1Ev
+ *fill*         0x000000000002014a        0x6 90909090
+ .text._ZNSt10_List_baseISt14_List_iteratorIP10CInfoBlockESaIS3_EED2Ev
+                0x0000000000020150       0x2d src/main/c++/udt/src/api.o
+                0x0000000000020150                _ZNSt10_List_baseISt14_List_iteratorIP10CInfoBlockESaIS3_EED2Ev
+                0x0000000000020150                _ZNSt10_List_baseISt14_List_iteratorIP10CInfoBlockESaIS3_EED1Ev
+ *fill*         0x000000000002017d        0x3 90909090
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE5eraseERKi
+                0x0000000000020180      0x16e src/main/c++/udt/src/api.o
+                0x0000000000020180                _ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE5eraseERKi
+ *fill*         0x00000000000202ee        0x2 90909090
+ .text._ZNSt6vectorIP10CUDTSocketSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_
+                0x00000000000202f0      0x1b2 src/main/c++/udt/src/api.o
+                0x00000000000202f0                _ZNSt6vectorIP10CUDTSocketSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_
+ *fill*         0x00000000000204a2        0xe 90909090
+ .text._ZNSt6vectorIiSaIiEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPiS1_EERKi
+                0x00000000000204b0      0x1b2 src/main/c++/udt/src/api.o
+                0x00000000000204b0                _ZNSt6vectorIiSaIiEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPiS1_EERKi
+ *fill*         0x0000000000020662        0xe 90909090
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIiERKi
+                0x0000000000020670      0x145 src/main/c++/udt/src/api.o
+                0x0000000000020670                _ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIiERKi
+ *fill*         0x00000000000207b5        0xb 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKiP10CUDTSocketESt10_Select1stIS4_ESt4lessIiESaIS4_EE10_M_insert_EPKSt18_Rb_tree_node_baseSD_RKS4_
+                0x00000000000207c0       0xa4 src/main/c++/udt/src/api.o
+                0x00000000000207c0                _ZNSt8_Rb_treeIiSt4pairIKiP10CUDTSocketESt10_Select1stIS4_ESt4lessIiESaIS4_EE10_M_insert_EPKSt18_Rb_tree_node_baseSD_RKS4_
+ *fill*         0x0000000000020864        0xc 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKiP10CUDTSocketESt10_Select1stIS4_ESt4lessIiESaIS4_EE16_M_insert_uniqueERKS4_
+                0x0000000000020870       0xab src/main/c++/udt/src/api.o
+                0x0000000000020870                _ZNSt8_Rb_treeIiSt4pairIKiP10CUDTSocketESt10_Select1stIS4_ESt4lessIiESaIS4_EE16_M_insert_uniqueERKS4_
+ *fill*         0x000000000002091b        0x5 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKiP10CUDTSocketESt10_Select1stIS4_ESt4lessIiESaIS4_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS4_ERKS4_
+                0x0000000000020920      0x145 src/main/c++/udt/src/api.o
+                0x0000000000020920                _ZNSt8_Rb_treeIiSt4pairIKiP10CUDTSocketESt10_Select1stIS4_ESt4lessIiESaIS4_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS4_ERKS4_
+ *fill*         0x0000000000020a65        0xb 90909090
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE7_M_copyEPKSt13_Rb_tree_nodeIiEPS7_
+                0x0000000000020a70      0x111 src/main/c++/udt/src/api.o
+                0x0000000000020a70                _ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE7_M_copyEPKSt13_Rb_tree_nodeIiEPS7_
+ *fill*         0x0000000000020b81        0xf 90909090
+ .text._ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEEaSERKS5_
+                0x0000000000020b90       0x91 src/main/c++/udt/src/api.o
+                0x0000000000020b90                _ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEEaSERKS5_
+ *fill*         0x0000000000020c21        0xf 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKiP10CUDTSocketESt10_Select1stIS4_ESt4lessIiESaIS4_EE12_M_erase_auxESt23_Rb_tree_const_iteratorIS4_E
+                0x0000000000020c30       0x2c src/main/c++/udt/src/api.o
+                0x0000000000020c30                _ZNSt8_Rb_treeIiSt4pairIKiP10CUDTSocketESt10_Select1stIS4_ESt4lessIiESaIS4_EE12_M_erase_auxESt23_Rb_tree_const_iteratorIS4_E
+ *fill*         0x0000000000020c5c        0x4 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKiP10CUDTSocketESt10_Select1stIS4_ESt4lessIiESaIS4_EE5eraseERS1_
+                0x0000000000020c60      0x14d src/main/c++/udt/src/api.o
+                0x0000000000020c60                _ZNSt8_Rb_treeIiSt4pairIKiP10CUDTSocketESt10_Select1stIS4_ESt4lessIiESaIS4_EE5eraseERS1_
+ *fill*         0x0000000000020dad        0x3 90909090
+ .text._ZSt8_DestroyIPSt4listISt14_List_iteratorIP10CInfoBlockESaIS4_EEEvT_S8_
+                0x0000000000020db0       0x54 src/main/c++/udt/src/api.o
+                0x0000000000020db0                _ZSt8_DestroyIPSt4listISt14_List_iteratorIP10CInfoBlockESaIS4_EEEvT_S8_
+ *fill*         0x0000000000020e04        0xc 90909090
+ .text._ZNSt8_Rb_treeIlSt4pairIKlSt3setIiSt4lessIiESaIiEEESt10_Select1stIS7_ES3_IlESaIS7_EE10_M_insert_EPKSt18_Rb_tree_node_baseSF_RKS7_
+                0x0000000000020e10      0x12a src/main/c++/udt/src/api.o
+                0x0000000000020e10                _ZNSt8_Rb_treeIlSt4pairIKlSt3setIiSt4lessIiESaIiEEESt10_Select1stIS7_ES3_IlESaIS7_EE10_M_insert_EPKSt18_Rb_tree_node_baseSF_RKS7_
+ *fill*         0x0000000000020f3a        0x6 90909090
+ .text._ZNSt8_Rb_treeIlSt4pairIKlSt3setIiSt4lessIiESaIiEEESt10_Select1stIS7_ES3_IlESaIS7_EE16_M_insert_uniqueERKS7_
+                0x0000000000020f40       0xb5 src/main/c++/udt/src/api.o
+                0x0000000000020f40                _ZNSt8_Rb_treeIlSt4pairIKlSt3setIiSt4lessIiESaIiEEESt10_Select1stIS7_ES3_IlESaIS7_EE16_M_insert_uniqueERKS7_
+ *fill*         0x0000000000020ff5        0xb 90909090
+ .text._ZNSt8_Rb_treeIlSt4pairIKlSt3setIiSt4lessIiESaIiEEESt10_Select1stIS7_ES3_IlESaIS7_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS7_ERKS7_
+                0x0000000000021000      0x145 src/main/c++/udt/src/api.o
+                0x0000000000021000                _ZNSt8_Rb_treeIlSt4pairIKlSt3setIiSt4lessIiESaIiEEESt10_Select1stIS7_ES3_IlESaIS7_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS7_ERKS7_
+ *fill*         0x0000000000021145        0xb 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKi12CMultiplexerESt10_Select1stIS3_ESt4lessIiESaIS3_EE10_M_insert_EPKSt18_Rb_tree_node_baseSC_RKS3_
+                0x0000000000021150       0xdb src/main/c++/udt/src/api.o
+                0x0000000000021150                _ZNSt8_Rb_treeIiSt4pairIKi12CMultiplexerESt10_Select1stIS3_ESt4lessIiESaIS3_EE10_M_insert_EPKSt18_Rb_tree_node_baseSC_RKS3_
+ *fill*         0x000000000002122b        0x5 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKi12CMultiplexerESt10_Select1stIS3_ESt4lessIiESaIS3_EE16_M_insert_uniqueERKS3_
+                0x0000000000021230       0xab src/main/c++/udt/src/api.o
+                0x0000000000021230                _ZNSt8_Rb_treeIiSt4pairIKi12CMultiplexerESt10_Select1stIS3_ESt4lessIiESaIS3_EE16_M_insert_uniqueERKS3_
+ *fill*         0x00000000000212db        0x5 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKi12CMultiplexerESt10_Select1stIS3_ESt4lessIiESaIS3_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS3_ERKS3_
+                0x00000000000212e0      0x145 src/main/c++/udt/src/api.o
+                0x00000000000212e0                _ZNSt8_Rb_treeIiSt4pairIKi12CMultiplexerESt10_Select1stIS3_ESt4lessIiESaIS3_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS3_ERKS3_
+ *fill*         0x0000000000021425        0xb 90909090
+ .text._ZNSt4listISt14_List_iteratorIP10CInfoBlockESaIS3_EEaSERKS5_
+                0x0000000000021430      0x11b src/main/c++/udt/src/api.o
+                0x0000000000021430                _ZNSt4listISt14_List_iteratorIP10CInfoBlockESaIS3_EEaSERKS5_
+ *fill*         0x000000000002154b        0x5 90909090
+ .text._ZNSt6vectorISt4listISt14_List_iteratorIP10CInfoBlockESaIS4_EESaIS6_EE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPS6_S8_EEmRKS6_
+                0x0000000000021550      0x71b src/main/c++/udt/src/api.o
+                0x0000000000021550                _ZNSt6vectorISt4listISt14_List_iteratorIP10CInfoBlockESaIS4_EESaIS6_EE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPS6_S8_EEmRKS6_
+ *fill*         0x0000000000021c6b        0x5 90909090
+ .text          0x0000000000021c70     0x11c0 src/main/c++/udt/src/buffer.o
+                0x0000000000021c70                _ZN10CSndBufferC1Eii
+                0x0000000000021c70                _ZN10CSndBufferC2Eii
+                0x0000000000021dd0                _ZN10CSndBufferD2Ev
+                0x0000000000021dd0                _ZN10CSndBufferD1Ev
+                0x0000000000021e60                _ZN10CSndBuffer8readDataEPPcRi
+                0x0000000000021e90                _ZN10CSndBuffer8readDataEPPciRiS2_
+                0x0000000000021fd0                _ZN10CSndBuffer7ackDataEi
+                0x0000000000022040                _ZNK10CSndBuffer14getCurrBufSizeEv
+                0x0000000000022050                _ZN10CSndBuffer8increaseEv
+                0x0000000000022230                _ZN10CSndBuffer17addBufferFromFileERSt13basic_fstreamIcSt11char_traitsIcEEi
+                0x00000000000223d0                _ZN10CSndBuffer9addBufferEPKciib
+                0x0000000000022520                _ZN10CRcvBufferC1EP10CUnitQueuei
+                0x0000000000022520                _ZN10CRcvBufferC2EP10CUnitQueuei
+                0x00000000000225a0                _ZN10CRcvBufferD2Ev
+                0x00000000000225a0                _ZN10CRcvBufferD1Ev
+                0x0000000000022600                _ZN10CRcvBuffer7addDataEP5CUniti
+                0x0000000000022650                _ZN10CRcvBuffer10readBufferEPci
+                0x0000000000022800                _ZN10CRcvBuffer16readBufferToFileERSt13basic_fstreamIcSt11char_traitsIcEEi
+                0x0000000000022960                _ZN10CRcvBuffer7ackDataEi
+                0x0000000000022990                _ZNK10CRcvBuffer14getRcvDataSizeEv
+                0x00000000000229b0                _ZNK10CRcvBuffer15getAvailBufSizeEv
+                0x00000000000229d0                _ZN10CRcvBuffer7dropMsgEi
+                0x0000000000022a30                _ZN10CRcvBuffer7scanMsgERiS0_Rb
+                0x0000000000022ce0                _ZN10CRcvBuffer12getRcvMsgNumEv
+                0x0000000000022d00                _ZN10CRcvBuffer7readMsgEPci
+ .text          0x0000000000022e30      0x1bc src/main/c++/udt/src/cache.o
+                0x0000000000022e30                _ZN10CInfoBlock6getKeyEv
+                0x0000000000022e60                _ZN10CInfoBlockaSERKS_
+                0x0000000000022ed0                _ZN10CInfoBlockeqERKS_
+                0x0000000000022f20                _ZN10CInfoBlock5cloneEv
+                0x0000000000022fb0                _ZN10CInfoBlock7convertEPK8sockaddriPj
+ *fill*         0x0000000000022fec        0x4 90909090
+ .text._ZN10CInfoBlockD2Ev
+                0x0000000000022ff0       0x14 src/main/c++/udt/src/cache.o
+                0x0000000000022ff0                _ZN10CInfoBlockD2Ev
+                0x0000000000022ff0                _ZN10CInfoBlockD1Ev
+ *fill*         0x0000000000023004        0xc 90909090
+ .text._ZN10CInfoBlock7releaseEv
+                0x0000000000023010        0x6 src/main/c++/udt/src/cache.o
+                0x0000000000023010                _ZN10CInfoBlock7releaseEv
+ *fill*         0x0000000000023016        0xa 90909090
+ .text._ZN10CInfoBlockD0Ev
+                0x0000000000023020       0x18 src/main/c++/udt/src/cache.o
+                0x0000000000023020                _ZN10CInfoBlockD0Ev
+ *fill*         0x0000000000023038        0x8 90909090
+ .text          0x0000000000023040      0x7f0 src/main/c++/udt/src/ccc.o
+                0x0000000000023040                _ZN6CUDTCC5onACKEi
+                0x0000000000023220                _ZN3CCCD2Ev
+                0x0000000000023220                _ZN3CCCD1Ev
+                0x0000000000023250                _ZN3CCCD0Ev
+                0x0000000000023270                _ZN6CUDTCC9onTimeoutEv
+                0x00000000000232d0                _ZN6CUDTCC6onLossEPKii
+                0x0000000000023480                _ZN3CCCC2Ev
+                0x0000000000023480                _ZN3CCCC1Ev
+                0x0000000000023530                _ZN3CCC11setACKTimerEi
+                0x0000000000023550                _ZN6CUDTCC4initEv
+                0x0000000000023610                _ZN3CCC14setACKIntervalEi
+                0x0000000000023620                _ZN3CCC6setRTOEi
+                0x0000000000023630                _ZNK3CCC13sendCustomMsgER7CPacket
+                0x0000000000023680                _ZN3CCC11getPerfInfoEv
+                0x00000000000236d0                _ZN3CCC6setMSSEi
+                0x00000000000236e0                _ZN3CCC12setBandwidthEi
+                0x00000000000236f0                _ZN3CCC15setSndCurrSeqNoEi
+                0x0000000000023700                _ZN3CCC10setRcvRateEi
+                0x0000000000023710                _ZN3CCC14setMaxCWndSizeEi
+                0x0000000000023720                _ZN3CCC6setRTTEi
+                0x0000000000023730                _ZN3CCC12setUserParamEPKci
+                0x00000000000237a0                _ZN6CUDTCCC2Ev
+                0x00000000000237a0                _ZN6CUDTCCC1Ev
+ .text._ZN3CCC4initEv
+                0x0000000000023830        0x6 src/main/c++/udt/src/ccc.o
+                0x0000000000023830                _ZN3CCC4initEv
+ *fill*         0x0000000000023836        0xa 90909090
+ .text._ZN3CCC5closeEv
+                0x0000000000023840        0x6 src/main/c++/udt/src/ccc.o
+                0x0000000000023840                _ZN3CCC5closeEv
+ *fill*         0x0000000000023846        0xa 90909090
+ .text._ZN3CCC9onTimeoutEv
+                0x0000000000023850        0x6 src/main/c++/udt/src/ccc.o
+                0x0000000000023850                _ZN3CCC9onTimeoutEv
+ *fill*         0x0000000000023856        0xa 90909090
+ .text._ZN3CCC9onPktSentEPK7CPacket
+                0x0000000000023860        0x6 src/main/c++/udt/src/ccc.o
+                0x0000000000023860                _ZN3CCC9onPktSentEPK7CPacket
+ *fill*         0x0000000000023866        0xa 90909090
+ .text._ZN3CCC13onPktReceivedEPK7CPacket
+                0x0000000000023870        0x6 src/main/c++/udt/src/ccc.o
+                0x0000000000023870                _ZN3CCC13onPktReceivedEPK7CPacket
+ *fill*         0x0000000000023876        0xa 90909090
+ .text._ZN3CCC16processCustomMsgEPK7CPacket
+                0x0000000000023880        0x6 src/main/c++/udt/src/ccc.o
+                0x0000000000023880                _ZN3CCC16processCustomMsgEPK7CPacket
+ *fill*         0x0000000000023886        0xa 90909090
+ .text._ZN6CUDTCCD2Ev
+                0x0000000000023890       0x18 src/main/c++/udt/src/ccc.o
+                0x0000000000023890                _ZN6CUDTCCD1Ev
+                0x0000000000023890                _ZN6CUDTCCD2Ev
+ *fill*         0x00000000000238a8        0x8 90909090
+ .text._ZN6CUDTCCD0Ev
+                0x00000000000238b0       0x2d src/main/c++/udt/src/ccc.o
+                0x00000000000238b0                _ZN6CUDTCCD0Ev
+ *fill*         0x00000000000238dd        0x3 90909090
+ .text          0x00000000000238e0      0x657 src/main/c++/udt/src/channel.o
+                0x00000000000238e0                _ZN8CChannelC2Ev
+                0x00000000000238e0                _ZN8CChannelC1Ev
+                0x0000000000023910                _ZN8CChannelC2Ei
+                0x0000000000023910                _ZN8CChannelC1Ei
+                0x0000000000023940                _ZN8CChannelD1Ev
+                0x0000000000023940                _ZN8CChannelD2Ev
+                0x0000000000023950                _ZN8CChannel13setUDPSockOptEv
+                0x0000000000023a60                _ZN8CChannel4openEi
+                0x0000000000023a70                _ZN8CChannel4openEPK8sockaddr
+                0x0000000000023c00                _ZNK8CChannel5closeEv
+                0x0000000000023c10                _ZN8CChannel13getSndBufSizeEv
+                0x0000000000023c50                _ZN8CChannel13getRcvBufSizeEv
+                0x0000000000023c90                _ZN8CChannel13setSndBufSizeEi
+                0x0000000000023ca0                _ZN8CChannel13setRcvBufSizeEi
+                0x0000000000023cb0                _ZNK8CChannel11getSockAddrEP8sockaddr
+                0x0000000000023cd0                _ZNK8CChannel11getPeerAddrEP8sockaddr
+                0x0000000000023cf0                _ZNK8CChannel6sendtoEPK8sockaddrR7CPacket
+                0x0000000000023e40                _ZNK8CChannel8recvfromEP8sockaddrR7CPacket
+ *fill*         0x0000000000023f37        0x9 90909090
+ .text          0x0000000000023f40      0xdde src/main/c++/udt/src/common.o
+                0x0000000000023f40                _ZNK13CUDTException12getErrorCodeEv
+                0x0000000000023f60                _ZN13CUDTException5clearEv
+                0x0000000000023f80                _ZN13CUDTExceptionD1Ev
+                0x0000000000023f80                _ZN13CUDTExceptionD2Ev
+                0x0000000000024060                _ZN13CUDTExceptionD0Ev
+                0x0000000000024080                _ZN13CUDTException15getErrorMessageEv
+                0x0000000000024660                _ZN6CTimerC1Ev
+                0x0000000000024660                _ZN6CTimerC2Ev
+                0x00000000000246d0                _ZN6CTimerD2Ev
+                0x00000000000246d0                _ZN6CTimerD1Ev
+                0x0000000000024700                _ZN6CTimer15getCPUFrequencyEv
+                0x0000000000024710                _ZN6CTimer4tickEv
+                0x0000000000024720                _ZN6CTimer7getTimeEv
+                0x0000000000024750                _ZN6CTimer5rdtscERm
+                0x0000000000024790                _ZN6CTimer9interruptEv
+                0x00000000000247b0                _ZN6CTimer7sleeptoEm
+                0x0000000000024880                _ZN6CTimer5sleepEm
+                0x00000000000248c0                _ZN6CTimer16readCPUFrequencyEv
+                0x0000000000024930                _ZN6CTimer12triggerEventEv
+                0x0000000000024950                _ZN6CTimer12waitForEventEv
+                0x00000000000249e0                _ZN6CTimer5sleepEv
+                0x00000000000249f0                _ZN6CGuardC2ER15pthread_mutex_t
+                0x00000000000249f0                _ZN6CGuardC1ER15pthread_mutex_t
+                0x0000000000024a20                _ZN6CGuardD1Ev
+                0x0000000000024a20                _ZN6CGuardD2Ev
+                0x0000000000024a40                _ZN6CGuard7enterCSER15pthread_mutex_t
+                0x0000000000024a50                _ZN6CGuard7leaveCSER15pthread_mutex_t
+                0x0000000000024a60                _ZN6CGuard11createMutexER15pthread_mutex_t
+                0x0000000000024a70                _ZN6CGuard12releaseMutexER15pthread_mutex_t
+                0x0000000000024a80                _ZN6CGuard10createCondER14pthread_cond_t
+                0x0000000000024a90                _ZN6CGuard11releaseCondER14pthread_cond_t
+                0x0000000000024aa0                _ZN13CUDTExceptionC1Eiii
+                0x0000000000024aa0                _ZN13CUDTExceptionC2Eiii
+                0x0000000000024b00                _ZN13CUDTExceptionC1ERKS_
+                0x0000000000024b00                _ZN13CUDTExceptionC2ERKS_
+                0x0000000000024b40                _ZN10CIPAddress5ipcmpEPK8sockaddrS2_i
+                0x0000000000024bb0                _ZN10CIPAddress4ntopEPK8sockaddrPji
+                0x0000000000024c60                _ZN10CIPAddress4ptonEP8sockaddrPKji
+                0x0000000000024cb0                _ZN4CMD57computeEPKcPh
+ *fill*         0x0000000000024d1e        0x2 90909090
+ .text          0x0000000000024d20     0x7920 src/main/c++/udt/src/core.o
+                0x0000000000024d50                _ZN4CUDT6setOptE6UDTOptPKvi
+                0x0000000000025460                _ZN4CUDT6getOptE6UDTOptPvRi
+                0x0000000000025810                _ZN4CUDT4openEv
+                0x0000000000025af0                _ZN4CUDT6listenEv
+                0x0000000000025c40                _ZN4CUDT7connectERK7CPacket
+                0x0000000000026290                _ZN4CUDT7connectEPK8sockaddr
+                0x0000000000026b20                _ZN4CUDT7connectEPK8sockaddrP10CHandShake
+                0x0000000000027140                _ZN4CUDT4sendEPKci
+                0x0000000000027660                _ZN4CUDT4recvEPci
+                0x0000000000027a80                _ZN4CUDT7sendmsgEPKciib
+                0x0000000000027f60                _ZN4CUDT7recvmsgEPci
+                0x00000000000283c0                _ZN4CUDT8sendfileERSt13basic_fstreamIcSt11char_traitsIcEERlli
+                0x0000000000028850                _ZN4CUDT6sampleEP8CPerfMonb
+                0x0000000000028cc0                _ZN4CUDT8CCUpdateEv
+                0x0000000000028de0                _ZN4CUDT9initSynchEv
+                0x0000000000028e70                _ZN4CUDT12destroySynchEv
+                0x0000000000028ef0                _ZN4CUDT12releaseSynchEv
+                0x0000000000028f80                _ZN4CUDT8sendCtrlEiPvS0_i
+                0x0000000000029610                _ZN4CUDT8recvfileERSt13basic_fstreamIcSt11char_traitsIcEERlli
+                0x0000000000029a40                _ZN4CUDT11processCtrlER7CPacket
+                0x000000000002a350                _ZN4CUDT8packDataER7CPacketRm
+                0x000000000002a730                _ZN4CUDT11processDataEP5CUnit
+                0x000000000002a9d0                _ZN4CUDT11checkTimersEv
+                0x000000000002aca0                _ZN4CUDTC2ERKS_
+                0x000000000002aca0                _ZN4CUDTC1ERKS_
+                0x000000000002ae70                _ZN4CUDTC2Ev
+                0x000000000002ae70                _ZN4CUDTC1Ev
+                0x000000000002b040                _ZN4CUDTD2Ev
+                0x000000000002b040                _ZN4CUDTD1Ev
+                0x000000000002b190                _ZN4CUDT5closeEv
+                0x000000000002b750                _ZN4CUDT6listenEP8sockaddrR7CPacket
+                0x000000000002c440                _ZN4CUDT11removeEPollEi
+                0x000000000002c510                _ZN4CUDT8addEPollEi
+ .text._ZN10CCCFactoryI6CUDTCCED2Ev
+                0x000000000002c640       0x14 src/main/c++/udt/src/core.o
+                0x000000000002c640                _ZN10CCCFactoryI6CUDTCCED1Ev
+                0x000000000002c640                _ZN10CCCFactoryI6CUDTCCED2Ev
+ *fill*         0x000000000002c654        0xc 90909090
+ .text._ZN10CCCFactoryI6CUDTCCE5cloneEv
+                0x000000000002c660       0x1e src/main/c++/udt/src/core.o
+                0x000000000002c660                _ZN10CCCFactoryI6CUDTCCE5cloneEv
+ *fill*         0x000000000002c67e        0x2 90909090
+ .text._ZN10CCCFactoryI6CUDTCCED0Ev
+                0x000000000002c680       0x18 src/main/c++/udt/src/core.o
+                0x000000000002c680                _ZN10CCCFactoryI6CUDTCCED0Ev
+ *fill*         0x000000000002c698        0x8 90909090
+ .text._ZN10CCCFactoryI6CUDTCCE6createEv
+                0x000000000002c6a0       0x40 src/main/c++/udt/src/core.o
+                0x000000000002c6a0                _ZN10CCCFactoryI6CUDTCCE6createEv
+ .text._ZNSsC2IPcEET_S1_RKSaIcE
+                0x000000000002c6e0       0xe9 src/main/c++/udt/src/core.o
+                0x000000000002c6e0                _ZNSsC2IPcEET_S1_RKSaIcE
+                0x000000000002c6e0                _ZNSsC1IPcEET_S1_RKSaIcE
+ *fill*         0x000000000002c7c9        0x7 90909090
+ .text          0x000000000002c7d0     0x1faf src/main/c++/udt/src/epoll.o
+                0x000000000002c7d0                _ZN6CEPollD1Ev
+                0x000000000002c7d0                _ZN6CEPollD2Ev
+                0x000000000002c820                _ZN6CEPollC2Ev
+                0x000000000002c820                _ZN6CEPollC1Ev
+                0x000000000002c890                _ZN6CEPoll7releaseEi
+                0x000000000002ca10                _ZN6CEPoll12remove_ssockEiRKi
+                0x000000000002cb50                _ZN6CEPoll12remove_usockEiRKi
+                0x000000000002ccd0                _ZN6CEPoll13update_eventsERKiRSt3setIiSt4lessIiESaIiEEib
+                0x000000000002cee0                _ZN6CEPoll4waitEiPSt3setIiSt4lessIiESaIiEES5_lS5_S5_
+                0x000000000002d680                _ZN6CEPoll9add_ssockEiRKiPS0_
+                0x000000000002d810                _ZN6CEPoll9add_usockEiRKiPS0_
+                0x000000000002d980                _ZN6CEPoll6createEv
+ *fill*         0x000000000002e77f        0x1 90909090
+ .text._ZN10CEPollDescD2Ev
+                0x000000000002e780       0x85 src/main/c++/udt/src/epoll.o
+                0x000000000002e780                _ZN10CEPollDescD1Ev
+                0x000000000002e780                _ZN10CEPollDescD2Ev
+ *fill*         0x000000000002e805        0xb 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKi10CEPollDescESt10_Select1stIS3_ESt4lessIiESaIS3_EE8_M_eraseEPSt13_Rb_tree_nodeIS3_E
+                0x000000000002e810       0xc8 src/main/c++/udt/src/epoll.o
+                0x000000000002e810                _ZNSt8_Rb_treeIiSt4pairIKi10CEPollDescESt10_Select1stIS3_ESt4lessIiESaIS3_EE8_M_eraseEPSt13_Rb_tree_nodeIS3_E
+ *fill*         0x000000000002e8d8        0x8 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKi10CEPollDescESt10_Select1stIS3_ESt4lessIiESaIS3_EE10_M_insert_EPKSt18_Rb_tree_node_baseSC_RKS3_
+                0x000000000002e8e0      0x537 src/main/c++/udt/src/epoll.o
+                0x000000000002e8e0                _ZNSt8_Rb_treeIiSt4pairIKi10CEPollDescESt10_Select1stIS3_ESt4lessIiESaIS3_EE10_M_insert_EPKSt18_Rb_tree_node_baseSC_RKS3_
+ *fill*         0x000000000002ee17        0x9 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKi10CEPollDescESt10_Select1stIS3_ESt4lessIiESaIS3_EE16_M_insert_uniqueERKS3_
+                0x000000000002ee20       0xab src/main/c++/udt/src/epoll.o
+                0x000000000002ee20                _ZNSt8_Rb_treeIiSt4pairIKi10CEPollDescESt10_Select1stIS3_ESt4lessIiESaIS3_EE16_M_insert_uniqueERKS3_
+ *fill*         0x000000000002eecb        0x5 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKi10CEPollDescESt10_Select1stIS3_ESt4lessIiESaIS3_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS3_ERKS3_
+                0x000000000002eed0      0x145 src/main/c++/udt/src/epoll.o
+                0x000000000002eed0                _ZNSt8_Rb_treeIiSt4pairIKi10CEPollDescESt10_Select1stIS3_ESt4lessIiESaIS3_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS3_ERKS3_
+ *fill*         0x000000000002f015        0xb 90909090
+ .text          0x000000000002f020     0x173d src/main/c++/udt/src/list.o
+                0x000000000002f020                _ZN12CSndLossListC1Ei
+                0x000000000002f020                _ZN12CSndLossListC2Ei
+                0x000000000002f100                _ZN12CSndLossListD1Ev
+                0x000000000002f100                _ZN12CSndLossListD2Ev
+                0x000000000002f150                _ZN12CSndLossList6insertEii
+                0x000000000002f810                _ZN12CSndLossList6removeEi
+                0x000000000002fc70                _ZN12CSndLossList13getLossLengthEv
+                0x000000000002fca0                _ZN12CSndLossList10getLostSeqEv
+                0x000000000002fe00                _ZN12CRcvLossListC2Ei
+                0x000000000002fe00                _ZN12CRcvLossListC1Ei
+                0x000000000002fed0                _ZN12CRcvLossListD2Ev
+                0x000000000002fed0                _ZN12CRcvLossListD1Ev
+                0x000000000002ff30                _ZN12CRcvLossList6insertEii
+                0x0000000000030100                _ZN12CRcvLossList6removeEi
+                0x0000000000030510                _ZN12CRcvLossList6removeEii
+                0x00000000000305a0                _ZNK12CRcvLossList4findEii
+                0x00000000000306b0                _ZNK12CRcvLossList13getLossLengthEv
+                0x00000000000306c0                _ZNK12CRcvLossList15getFirstLostSeqEv
+                0x00000000000306e0                _ZN12CRcvLossList12getLossArrayEPiRii
+ *fill*         0x000000000003075d        0x3 90909090
+ .text          0x0000000000030760      0xc11 src/main/c++/udt/src/md5.o
+                0x0000000000031140                md5_init
+                0x0000000000031170                md5_append
+                0x00000000000312b0                md5_finish
+ *fill*         0x0000000000031371        0xf 90909090
+ .text          0x0000000000031380      0x3c7 src/main/c++/udt/src/packet.o
+                0x0000000000031380                _ZN7CPacketC2Ev
+                0x0000000000031380                _ZN7CPacketC1Ev
+                0x00000000000313f0                _ZN7CPacketD2Ev
+                0x00000000000313f0                _ZN7CPacketD1Ev
+                0x0000000000031400                _ZNK7CPacket9getLengthEv
+                0x0000000000031410                _ZN7CPacket9setLengthEi
+                0x0000000000031420                _ZN7CPacket4packEiPvS0_i
+                0x0000000000031510                _ZN7CPacket15getPacketVectorEv
+                0x0000000000031520                _ZNK7CPacket7getFlagEv
+                0x0000000000031530                _ZNK7CPacket7getTypeEv
+                0x0000000000031540                _ZNK7CPacket15getExtendedTypeEv
+                0x0000000000031550                _ZNK7CPacket11getAckSeqNoEv
+                0x0000000000031560                _ZNK7CPacket14getMsgBoundaryEv
+                0x0000000000031570                _ZNK7CPacket15getMsgOrderFlagEv
+                0x0000000000031580                _ZNK7CPacket9getMsgSeqEv
+                0x0000000000031590                _ZNK7CPacket5cloneEv
+                0x0000000000031630                _ZN10CHandShakeC2Ev
+                0x0000000000031630                _ZN10CHandShakeC1Ev
+                0x0000000000031690                _ZN10CHandShake9serializeEPcRi
+                0x00000000000316f0                _ZN10CHandShake11deserializeEPKci
+ *fill*         0x0000000000031747        0x9 90909090
+ .text          0x0000000000031750     0x289e src/main/c++/udt/src/queue.o
+                0x0000000000031750                _ZN10CUnitQueueC1Ev
+                0x0000000000031750                _ZN10CUnitQueueC2Ev
+                0x0000000000031790                _ZN10CUnitQueueD2Ev
+                0x0000000000031790                _ZN10CUnitQueueD1Ev
+                0x0000000000031840                _ZN10CUnitQueue4initEiii
+                0x0000000000031a40                _ZN10CUnitQueue8increaseEv
+                0x0000000000031cb0                _ZN10CUnitQueue6shrinkEv
+                0x0000000000031cc0                _ZN10CUnitQueue16getNextAvailUnitEv
+                0x0000000000031d90                _ZN9CSndUListC2Ev
+                0x0000000000031d90                _ZN9CSndUListC1Ev
+                0x0000000000031e10                _ZN9CSndUListD2Ev
+                0x0000000000031e10                _ZN9CSndUListD1Ev
+                0x0000000000031e40                _ZN9CSndUList15getNextProcTimeEv
+                0x0000000000031e90                _ZN9CSndUList7insert_ElPK4CUDT
+                0x0000000000031fa0                _ZN9CSndUList6insertElPK4CUDT
+                0x0000000000032070                _ZN9CSndUList7remove_EPK4CUDT
+                0x0000000000032190                _ZN9CSndUList6removeEPK4CUDT
+                0x00000000000321f0                _ZN9CSndUList3popERP8sockaddrR7CPacket
+                0x0000000000032300                _ZN9CSndQueue6workerEPv
+                0x0000000000032410                _ZN9CSndUList6updateEPK4CUDTb
+                0x00000000000324b0                _ZN9CSndQueueC1Ev
+                0x00000000000324b0                _ZN9CSndQueueC2Ev
+                0x0000000000032540                _ZN9CSndQueueD1Ev
+                0x0000000000032540                _ZN9CSndQueueD2Ev
+                0x00000000000325e0                _ZN9CSndQueue4initEP8CChannelP6CTimer
+                0x00000000000326c0                _ZN9CSndQueue6sendtoEPK8sockaddrR7CPacket
+                0x00000000000326f0                _ZN9CRcvUListC2Ev
+                0x00000000000326f0                _ZN9CRcvUListC1Ev
+                0x0000000000032710                _ZN9CRcvUListD1Ev
+                0x0000000000032710                _ZN9CRcvUListD2Ev
+                0x0000000000032720                _ZN9CRcvUList6insertEPK4CUDT
+                0x00000000000327a0                _ZN9CRcvUList6removeEPK4CUDT
+                0x0000000000032820                _ZN9CRcvUList6updateEPK4CUDT
+                0x00000000000328c0                _ZN5CHashC1Ev
+                0x00000000000328c0                _ZN5CHashC2Ev
+                0x00000000000328e0                _ZN5CHashD1Ev
+                0x00000000000328e0                _ZN5CHashD2Ev
+                0x0000000000032950                _ZN5CHash4initEi
+                0x00000000000329b0                _ZN5CHash6lookupEi
+                0x0000000000032a00                _ZN5CHash6insertEiP4CUDT
+                0x0000000000032a80                _ZN5CHash6removeEi
+                0x0000000000032af0                _ZN16CRendezvousQueueC2Ev
+                0x0000000000032af0                _ZN16CRendezvousQueueC1Ev
+                0x0000000000032b30                _ZN16CRendezvousQueueD2Ev
+                0x0000000000032b30                _ZN16CRendezvousQueueD1Ev
+                0x0000000000032bb0                _ZN16CRendezvousQueue6insertERKiP4CUDTiPK8sockaddrm
+                0x0000000000032ca0                _ZN16CRendezvousQueue6removeERKi
+                0x0000000000032d30                _ZN16CRendezvousQueue8retrieveEPK8sockaddrRi
+                0x0000000000032dd0                _ZN16CRendezvousQueue16updateConnStatusEv
+                0x0000000000032fa0                _ZN9CRcvQueueC2Ev
+                0x0000000000032fa0                _ZN9CRcvQueueC1Ev
+                0x0000000000033150                _ZN9CRcvQueue4initEiiiiP8CChannelP6CTimer
+                0x0000000000033280                _ZN9CRcvQueue11setListenerEP4CUDT
+                0x00000000000332e0                _ZN9CRcvQueue14removeListenerEPK4CUDT
+                0x0000000000033340                _ZN9CRcvQueue17registerConnectorERKiP4CUDTiPK8sockaddrm
+                0x0000000000033360                _ZN9CRcvQueue10ifNewEntryEv
+                0x0000000000033380                _ZN9CRcvQueue11getNewEntryEv
+                0x0000000000033410                _ZN9CRcvQueue11setNewEntryEP4CUDT
+                0x00000000000334a0                _ZN9CRcvQueue8recvfromEiR7CPacket
+                0x0000000000033700                _ZN9CRcvQueueD2Ev
+                0x0000000000033700                _ZN9CRcvQueueD1Ev
+                0x00000000000338e0                _ZN9CRcvQueue15removeConnectorERKi
+                0x0000000000033a50                _ZN9CRcvQueue8storePktEiP7CPacket
+                0x0000000000033ca0                _ZN9CRcvQueue6workerEPv
+ *fill*         0x0000000000033fee        0x2 90909090
+ .text._ZNSt6vectorIP4CUDTSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_
+                0x0000000000033ff0      0x1a7 src/main/c++/udt/src/queue.o
+                0x0000000000033ff0                _ZNSt6vectorIP4CUDTSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_
+ *fill*         0x0000000000034197        0x9 90909090
+ .text._ZNSt11_Deque_baseIP7CPacketSaIS1_EED2Ev
+                0x00000000000341a0       0x63 src/main/c++/udt/src/queue.o
+                0x00000000000341a0                _ZNSt11_Deque_baseIP7CPacketSaIS1_EED1Ev
+                0x00000000000341a0                _ZNSt11_Deque_baseIP7CPacketSaIS1_EED2Ev
+ *fill*         0x0000000000034203        0xd 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKiSt5queueIP7CPacketSt5dequeIS4_SaIS4_EEEESt10_Select1stIS9_ESt4lessIiESaIS9_EE8_M_eraseEPSt13_Rb_tree_nodeIS9_E
+                0x0000000000034210       0x54 src/main/c++/udt/src/queue.o
+                0x0000000000034210                _ZNSt8_Rb_treeIiSt4pairIKiSt5queueIP7CPacketSt5dequeIS4_SaIS4_EEEESt10_Select1stIS9_ESt4lessIiESaIS9_EE8_M_eraseEPSt13_Rb_tree_nodeIS9_E
+ *fill*         0x0000000000034264        0xc 90909090
+ .text._ZNSt11_Deque_baseIP7CPacketSaIS1_EE17_M_initialize_mapEm
+                0x0000000000034270      0x129 src/main/c++/udt/src/queue.o
+                0x0000000000034270                _ZNSt11_Deque_baseIP7CPacketSaIS1_EE17_M_initialize_mapEm
+ *fill*         0x0000000000034399        0x7 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKiSt5queueIP7CPacketSt5dequeIS4_SaIS4_EEEESt10_Select1stIS9_ESt4lessIiESaIS9_EE10_M_insert_EPKSt18_Rb_tree_node_baseSI_RKS9_
+                0x00000000000343a0      0x1f8 src/main/c++/udt/src/queue.o
+                0x00000000000343a0                _ZNSt8_Rb_treeIiSt4pairIKiSt5queueIP7CPacketSt5dequeIS4_SaIS4_EEEESt10_Select1stIS9_ESt4lessIiESaIS9_EE10_M_insert_EPKSt18_Rb_tree_node_baseSI_RKS9_
+ *fill*         0x0000000000034598        0x8 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKiSt5queueIP7CPacketSt5dequeIS4_SaIS4_EEEESt10_Select1stIS9_ESt4lessIiESaIS9_EE16_M_insert_uniqueERKS9_
+                0x00000000000345a0       0xab src/main/c++/udt/src/queue.o
+                0x00000000000345a0                _ZNSt8_Rb_treeIiSt4pairIKiSt5queueIP7CPacketSt5dequeIS4_SaIS4_EEEESt10_Select1stIS9_ESt4lessIiESaIS9_EE16_M_insert_uniqueERKS9_
+ *fill*         0x000000000003464b        0x5 90909090
+ .text._ZNSt8_Rb_treeIiSt4pairIKiSt5queueIP7CPacketSt5dequeIS4_SaIS4_EEEESt10_Select1stIS9_ESt4lessIiESaIS9_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS9_ERKS9_
+                0x0000000000034650      0x145 src/main/c++/udt/src/queue.o
+                0x0000000000034650                _ZNSt8_Rb_treeIiSt4pairIKiSt5queueIP7CPacketSt5dequeIS4_SaIS4_EEEESt10_Select1stIS9_ESt4lessIiESaIS9_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS9_ERKS9_
+ *fill*         0x0000000000034795        0xb 90909090
+ .text._ZNSt3mapIiSt5queueIP7CPacketSt5dequeIS2_SaIS2_EEESt4lessIiESaISt4pairIKiS6_EEEixERSA_
+                0x00000000000347a0      0x426 src/main/c++/udt/src/queue.o
+                0x00000000000347a0                _ZNSt3mapIiSt5queueIP7CPacketSt5dequeIS2_SaIS2_EEESt4lessIiESaISt4pairIKiS6_EEEixERSA_
+ *fill*         0x0000000000034bc6        0xa 90909090
+ .text._ZNSt5dequeIP7CPacketSaIS1_EE17_M_reallocate_mapEmb
+                0x0000000000034bd0      0x19c src/main/c++/udt/src/queue.o
+                0x0000000000034bd0                _ZNSt5dequeIP7CPacketSaIS1_EE17_M_reallocate_mapEmb
+ *fill*         0x0000000000034d6c        0x4 90909090
+ .text          0x0000000000034d70      0x72e src/main/c++/udt/src/window.o
+                0x0000000000034d70                _ZN10CACKWindowC2Ei
+                0x0000000000034d70                _ZN10CACKWindowC1Ei
+                0x0000000000034df0                _ZN10CACKWindowD1Ev
+                0x0000000000034df0                _ZN10CACKWindowD2Ev
+                0x0000000000034e40                _ZN10CACKWindow5storeEii
+                0x0000000000034ea0                _ZN10CACKWindow11acknowledgeEiRi
+                0x0000000000035020                _ZN14CPktTimeWindowC1Eii
+                0x0000000000035020                _ZN14CPktTimeWindowC2Eii
+                0x0000000000035120                _ZN14CPktTimeWindowD1Ev
+                0x0000000000035120                _ZN14CPktTimeWindowD2Ev
+                0x0000000000035180                _ZNK14CPktTimeWindow15getMinPktSndIntEv
+                0x0000000000035190                _ZN14CPktTimeWindow9onPktSentEi
+                0x00000000000351b0                _ZN14CPktTimeWindow12onPktArrivalEv
+                0x0000000000035200                _ZN14CPktTimeWindow13probe1ArrivalEv
+                0x0000000000035220                _ZN14CPktTimeWindow13probe2ArrivalEv
+                0x0000000000035260                _ZNK14CPktTimeWindow12getBandwidthEv
+                0x0000000000035380                _ZNK14CPktTimeWindow14getPktRcvSpeedEv
+ *fill*         0x000000000003549e        0x2 90909090
+ .text._ZSt13__adjust_heapIPiliEvT_T0_S2_T1_
+                0x00000000000354a0       0xf1 src/main/c++/udt/src/window.o
+                0x00000000000354a0                _ZSt13__adjust_heapIPiliEvT_T0_S2_T1_
+ *fill*         0x0000000000035591        0xf 90909090
+ .text._ZSt13__introselectIPilEvT_S1_S1_T0_
+                0x00000000000355a0      0x255 src/main/c++/udt/src/window.o
+                0x00000000000355a0                _ZSt13__introselectIPilEvT_S1_S1_T0_
+ *fill*         0x00000000000357f5        0xb 90909090
+ .text          0x0000000000035800       0x36 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtendS.o
+ *fill*         0x0000000000035836        0x2 90909090
+ .text          0x0000000000035838        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+ *(.gnu.warning)
+
+.fini           0x0000000000035838        0xe
+ *(.fini)
+ .fini          0x0000000000035838        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+                0x0000000000035838                _fini
+ .fini          0x000000000003583c        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbeginS.o
+ .fini          0x0000000000035841        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+                0x0000000000035846                PROVIDE (__etext, .)
+                0x0000000000035846                PROVIDE (_etext, .)
+                0x0000000000035846                PROVIDE (etext, .)
+
+.rodata         0x0000000000035860     0x1978
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000035860       0x2b src/main/c++/jni/JNICCC.o
+                                         0x31 (size before relaxing)
+ .rodata._ZTS6JNICCC
+                0x000000000003588b        0x8 src/main/c++/jni/JNICCC.o
+                0x000000000003588b                _ZTS6JNICCC
+ *fill*         0x0000000000035893        0x5 00
+ .rodata.str1.8
+                0x0000000000035898       0x76 src/main/c++/jni/JNICCCFactory.o
+ .rodata.str1.1
+                0x000000000003590e       0x26 src/main/c++/jni/JNICCCFactory.o
+                                         0x2d (size before relaxing)
+ *fill*         0x0000000000035934        0xc 00
+ .rodata._ZTS13JNICCCFactory
+                0x0000000000035940       0x10 src/main/c++/jni/JNICCCFactory.o
+                0x0000000000035940                _ZTS13JNICCCFactory
+ .rodata._ZTS17CCCVirtualFactory
+                0x0000000000035950       0x14 src/main/c++/jni/JNICCCFactory.o
+                0x0000000000035950                _ZTS17CCCVirtualFactory
+ .rodata.str1.1
+                0x0000000000035964       0xff src/main/c++/jni/JNIHelpers.o
+                                        0x10e (size before relaxing)
+ *fill*         0x0000000000035a63       0x1d 00
+ .rodata        0x0000000000035a80      0x144 src/main/c++/jni/JNIHelpers.o
+ .rodata.str1.1
+                0x0000000000000000       0x31 src/main/c++/jni/com_barchart_udt_CCC.o
+ *fill*         0x0000000000035bc4        0x4 00
+ .rodata.str1.8
+                0x0000000000035bc8       0x9f src/main/c++/jni/com_barchart_udt_CCC.o
+ *fill*         0x0000000000035c67        0x9 00
+ .rodata        0x0000000000035c70       0x10 src/main/c++/jni/com_barchart_udt_CCC.o
+ .rodata.str1.1
+                0x0000000000035c80      0x884 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+                                        0x8d1 (size before relaxing)
+ *fill*         0x0000000000036504        0x4 00
+ .rodata.str1.8
+                0x0000000000036508      0x350 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ *fill*         0x0000000000036858        0x8 00
+ .rodata        0x0000000000036860      0x14f src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .rodata.str1.1
+                0x00000000000369af       0x17 src/main/c++/udt/src/api.o
+ *fill*         0x00000000000369c6        0x2 00
+ .rodata.cst8   0x00000000000369c8       0x10 src/main/c++/udt/src/api.o
+ .rodata._ZTS10CInfoBlock
+                0x00000000000369d8        0xd src/main/c++/udt/src/cache.o
+                0x00000000000369d8                _ZTS10CInfoBlock
+ .rodata._ZTS3CCC
+                0x00000000000369e5        0x5 src/main/c++/udt/src/ccc.o
+                0x00000000000369e5                _ZTS3CCC
+ .rodata._ZTS6CUDTCC
+                0x00000000000369ea        0x8 src/main/c++/udt/src/ccc.o
+                0x00000000000369ea                _ZTS6CUDTCC
+ *fill*         0x00000000000369f2        0x6 00
+ .rodata.cst8   0x00000000000369f8       0x48 src/main/c++/udt/src/ccc.o
+                                         0x50 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000000000       0x17 src/main/c++/udt/src/channel.o
+                                          0x2 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000036a40      0x1be src/main/c++/udt/src/common.o
+ *fill*         0x0000000000036bfe        0x2 00
+ .rodata.str1.8
+                0x0000000000036c00      0x2f5 src/main/c++/udt/src/common.o
+ *fill*         0x0000000000036ef5        0x3 00
+ .rodata        0x0000000000036ef8       0xec src/main/c++/udt/src/common.o
+                0x0000000000036f50                _ZN13CUDTException8EUNKNOWNE
+                0x0000000000036f54                _ZN13CUDTException8EPEERERRE
+                0x0000000000036f58                _ZN13CUDTException8ETIMEOUTE
+                0x0000000000036f5c                _ZN13CUDTException9EASYNCRCVE
+                0x0000000000036f60                _ZN13CUDTException9EASYNCSNDE
+                0x0000000000036f64                _ZN13CUDTException10EASYNCFAILE
+                0x0000000000036f68                _ZN13CUDTException10EINVPOLLIDE
+                0x0000000000036f6c                _ZN13CUDTException9ELARGEMSGE
+                0x0000000000036f70                _ZN13CUDTException10EDUPLISTENE
+                0x0000000000036f74                _ZN13CUDTException9EDGRAMILLE
+                0x0000000000036f78                _ZN13CUDTException10ESTREAMILLE
+                0x0000000000036f7c                _ZN13CUDTException11ERDVUNBOUNDE
+                0x0000000000036f80                _ZN13CUDTException10ERDVNOSERVE
+                0x0000000000036f84                _ZN13CUDTException9ENOLISTENE
+                0x0000000000036f88                _ZN13CUDTException12EUNBOUNDSOCKE
+                0x0000000000036f8c                _ZN13CUDTException8EINVSOCKE
+                0x0000000000036f90                _ZN13CUDTException9EINVPARAME
+                0x0000000000036f94                _ZN13CUDTException9ECONNSOCKE
+                0x0000000000036f98                _ZN13CUDTException10EBOUNDSOCKE
+                0x0000000000036f9c                _ZN13CUDTException6EINVOPE
+                0x0000000000036fa0                _ZN13CUDTException7EWRPERME
+                0x0000000000036fa4                _ZN13CUDTException9EINVWROFFE
+                0x0000000000036fa8                _ZN13CUDTException7ERDPERME
+                0x0000000000036fac                _ZN13CUDTException9EINVRDOFFE
+                0x0000000000036fb0                _ZN13CUDTException5EFILEE
+                0x0000000000036fb4                _ZN13CUDTException6ENOBUFE
+                0x0000000000036fb8                _ZN13CUDTException7ETHREADE
+                0x0000000000036fbc                _ZN13CUDTException9ERESOURCEE
+                0x0000000000036fc0                _ZN13CUDTException7ENOCONNE
+                0x0000000000036fc4                _ZN13CUDTException9ECONNLOSTE
+                0x0000000000036fc8                _ZN13CUDTException9ECONNFAILE
+                0x0000000000036fcc                _ZN13CUDTException8ESECFAILE
+                0x0000000000036fd0                _ZN13CUDTException9ESOCKFAILE
+                0x0000000000036fd4                _ZN13CUDTException8ECONNREJE
+                0x0000000000036fd8                _ZN13CUDTException9ENOSERVERE
+                0x0000000000036fdc                _ZN13CUDTException10ECONNSETUPE
+                0x0000000000036fe0                _ZN13CUDTException7SUCCESSE
+ *fill*         0x0000000000036fe4        0xc 00
+ .rodata._ZTS13CUDTException
+                0x0000000000036ff0       0x10 src/main/c++/udt/src/common.o
+                0x0000000000036ff0                _ZTS13CUDTException
+ .rodata        0x0000000000037000       0xec src/main/c++/udt/src/core.o
+                0x00000000000370bc                _ZN4CUDT20m_iSelfClockIntervalE
+                0x00000000000370c0                _ZN4CUDT14m_iSYNIntervalE
+                0x00000000000370c4                _ZN4CUDT10m_iVersionE
+                0x00000000000370c8                _ZN6CMsgNo11m_iMaxMsgNoE
+                0x00000000000370cc                _ZN6CMsgNo10m_iMsgNoTHE
+                0x00000000000370d0                _ZN6CAckNo14m_iMaxAckSeqNoE
+                0x00000000000370d4                _ZN6CSeqNo11m_iMaxSeqNoE
+                0x00000000000370d8                _ZN6CSeqNo10m_iSeqNoTHE
+                0x00000000000370dc                _ZN3UDT5ERRORE
+                0x00000000000370e0                _ZN3UDT12INVALID_SOCKE
+                0x00000000000370e4                _ZN4CUDT5ERRORE
+                0x00000000000370e8                _ZN4CUDT12INVALID_SOCKE
+ *fill*         0x00000000000370ec        0x4 00
+ .rodata.str1.8
+                0x00000000000370f0       0x30 src/main/c++/udt/src/core.o
+                                         0x2a (size before relaxing)
+ .rodata.str1.1
+                0x0000000000037120        0x2 src/main/c++/udt/src/core.o
+ *fill*         0x0000000000037122        0xe 00
+ .rodata._ZTS10CCCFactoryI6CUDTCCE
+                0x0000000000037130       0x16 src/main/c++/udt/src/core.o
+                0x0000000000037130                _ZTS10CCCFactoryI6CUDTCCE
+ *fill*         0x0000000000037146        0x2 00
+ .rodata.cst8   0x0000000000037148       0x10 src/main/c++/udt/src/core.o
+                                         0x30 (size before relaxing)
+ *fill*         0x0000000000037158        0x8 00
+ .rodata        0x0000000000037160       0x60 src/main/c++/udt/src/md5.o
+ .rodata        0x00000000000371c0        0x8 src/main/c++/udt/src/packet.o
+                0x00000000000371c0                _ZN10CHandShake14m_iContentSizeE
+                0x00000000000371c4                _ZN7CPacket13m_iPktHdrSizeE
+ .rodata.cst8   0x00000000000371c8        0x8 src/main/c++/udt/src/queue.o
+ .rodata.cst8   0x00000000000371d0        0x8 src/main/c++/udt/src/window.o
+                                         0x10 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00000000000371d8     0x1084
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000000371d8     0x1084 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+
+.eh_frame       0x0000000000038260     0x5664
+ *(.eh_frame)
+ .eh_frame      0x0000000000038260       0x40 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x00000000000382a0      0x330 src/main/c++/jni/JNICCC.o
+                                        0x340 (size before relaxing)
+ .eh_frame      0x00000000000385d0      0x188 src/main/c++/jni/JNICCCFactory.o
+                                        0x1c0 (size before relaxing)
+ .eh_frame      0x0000000000038758      0x248 src/main/c++/jni/JNIHelpers.o
+                                        0x260 (size before relaxing)
+ .eh_frame      0x00000000000389a0      0x130 src/main/c++/jni/com_barchart_udt_CCC.o
+                                        0x158 (size before relaxing)
+ .eh_frame      0x0000000000038ad0      0xc40 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+                                        0xc80 (size before relaxing)
+ .eh_frame      0x0000000000039710     0x1670 src/main/c++/udt/src/api.o
+                                       0x1638 (size before relaxing)
+ .eh_frame      0x000000000003ad80      0x360 src/main/c++/udt/src/buffer.o
+                                        0x380 (size before relaxing)
+ .eh_frame      0x000000000003b0e0      0x138 src/main/c++/udt/src/cache.o
+                                        0x140 (size before relaxing)
+ .eh_frame      0x000000000003b218      0x3d8 src/main/c++/udt/src/ccc.o
+                                        0x440 (size before relaxing)
+ .eh_frame      0x000000000003b5f0      0x210 src/main/c++/udt/src/channel.o
+                                        0x248 (size before relaxing)
+ .eh_frame      0x000000000003b800      0x4a0 src/main/c++/udt/src/common.o
+                                        0x498 (size before relaxing)
+ .eh_frame      0x000000000003bca0      0x718 src/main/c++/udt/src/core.o
+                                        0x838 (size before relaxing)
+ .eh_frame      0x000000000003c3b8      0x308 src/main/c++/udt/src/epoll.o
+                                        0x458 (size before relaxing)
+ .eh_frame      0x000000000003c6c0      0x270 src/main/c++/udt/src/list.o
+                                        0x278 (size before relaxing)
+ .eh_frame      0x000000000003c930       0xb0 src/main/c++/udt/src/md5.o
+                                         0xc0 (size before relaxing)
+ .eh_frame      0x000000000003c9e0      0x250 src/main/c++/udt/src/packet.o
+                                        0x288 (size before relaxing)
+ .eh_frame      0x000000000003cc30      0xa40 src/main/c++/udt/src/queue.o
+                                        0xa18 (size before relaxing)
+ .eh_frame      0x000000000003d670      0x250 src/main/c++/udt/src/window.o
+ .eh_frame      0x000000000003d8c0        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtendS.o
+
+.gcc_except_table
+                0x000000000003d8c4     0x1f33
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table
+                0x000000000003d8c4       0x23 src/main/c++/jni/JNICCC.o
+ .gcc_except_table
+                0x000000000003d8e7       0x28 src/main/c++/jni/JNICCCFactory.o
+ .gcc_except_table
+                0x000000000003d90f       0x10 src/main/c++/jni/com_barchart_udt_CCC.o
+ .gcc_except_table
+                0x000000000003d91f      0x224 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ *fill*         0x000000000003db43        0x1 00
+ .gcc_except_table
+                0x000000000003db44      0xfb9 src/main/c++/udt/src/api.o
+ *fill*         0x000000000003eafd        0x3 00
+ .gcc_except_table
+                0x000000000003eb00       0x70 src/main/c++/udt/src/buffer.o
+ .gcc_except_table
+                0x000000000003eb70       0x14 src/main/c++/udt/src/ccc.o
+ .gcc_except_table
+                0x000000000003eb84       0x42 src/main/c++/udt/src/channel.o
+ *fill*         0x000000000003ebc6        0x2 00
+ .gcc_except_table
+                0x000000000003ebc8      0x7cb src/main/c++/udt/src/core.o
+ *fill*         0x000000000003f393        0x1 00
+ .gcc_except_table
+                0x000000000003f394      0x1c5 src/main/c++/udt/src/epoll.o
+ .gcc_except_table
+                0x000000000003f559       0x11 src/main/c++/udt/src/packet.o
+ *fill*         0x000000000003f56a        0x2 00
+ .gcc_except_table
+                0x000000000003f56c      0x28b src/main/c++/udt/src/queue.o
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000003f7f7                . = (ALIGN (0x200000) - ((0x200000 - .) & 0x1fffff))
+                0x000000000023f82f                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x000000000023f830       0x18
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .ctors         0x000000000023f830        0x8 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .ctors         0x000000000023f838        0x8 src/main/c++/udt/src/common.o
+ .ctors         0x000000000023f840        0x8 src/main/c++/udt/src/core.o
+
+.fini_array
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+
+.ctors          0x000000000023f848       0x10
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ .ctors         0x000000000023f848        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000023f850        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtendS.o
+
+.dtors          0x000000000023f858       0x10
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ .dtors         0x000000000023f858        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbeginS.o
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000023f860        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtendS.o
+                0x000000000023f860                __DTOR_END__
+
+.jcr            0x000000000023f868        0x8
+ *(.jcr)
+ .jcr           0x000000000023f868        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbeginS.o
+ .jcr           0x000000000023f868        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtendS.o
+
+.data.rel.ro    0x000000000023f880      0x328
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro._ZTI6JNICCC
+                0x000000000023f880       0x18 src/main/c++/jni/JNICCC.o
+                0x000000000023f880                _ZTI6JNICCC
+ *fill*         0x000000000023f898        0x8 00
+ .data.rel.ro._ZTV6JNICCC
+                0x000000000023f8a0       0x60 src/main/c++/jni/JNICCC.o
+                0x000000000023f8a0                _ZTV6JNICCC
+ .data.rel.ro._ZTI13JNICCCFactory
+                0x000000000023f900       0x18 src/main/c++/jni/JNICCCFactory.o
+                0x000000000023f900                _ZTI13JNICCCFactory
+ *fill*         0x000000000023f918        0x8 00
+ .data.rel.ro._ZTV13JNICCCFactory
+                0x000000000023f920       0x30 src/main/c++/jni/JNICCCFactory.o
+                0x000000000023f920                _ZTV13JNICCCFactory
+ *fill*         0x000000000023f950       0x10 00
+ .data.rel.ro._ZTV17CCCVirtualFactory
+                0x000000000023f960       0x30 src/main/c++/jni/JNICCCFactory.o
+                0x000000000023f960                _ZTV17CCCVirtualFactory
+ .data.rel.ro._ZTI17CCCVirtualFactory
+                0x000000000023f990       0x10 src/main/c++/jni/JNICCCFactory.o
+                0x000000000023f990                _ZTI17CCCVirtualFactory
+ .data.rel.ro._ZTI10CInfoBlock
+                0x000000000023f9a0       0x10 src/main/c++/udt/src/cache.o
+                0x000000000023f9a0                _ZTI10CInfoBlock
+ *fill*         0x000000000023f9b0       0x10 00
+ .data.rel.ro._ZTV10CInfoBlock
+                0x000000000023f9c0       0x48 src/main/c++/udt/src/cache.o
+                0x000000000023f9c0                _ZTV10CInfoBlock
+ *fill*         0x000000000023fa08        0x8 00
+ .data.rel.ro._ZTI3CCC
+                0x000000000023fa10       0x10 src/main/c++/udt/src/ccc.o
+                0x000000000023fa10                _ZTI3CCC
+ .data.rel.ro._ZTI6CUDTCC
+                0x000000000023fa20       0x18 src/main/c++/udt/src/ccc.o
+                0x000000000023fa20                _ZTI6CUDTCC
+ *fill*         0x000000000023fa38        0x8 00
+ .data.rel.ro._ZTV3CCC
+                0x000000000023fa40       0x60 src/main/c++/udt/src/ccc.o
+                0x000000000023fa40                _ZTV3CCC
+ .data.rel.ro._ZTV6CUDTCC
+                0x000000000023faa0       0x60 src/main/c++/udt/src/ccc.o
+                0x000000000023faa0                _ZTV6CUDTCC
+ .data.rel.ro._ZTI13CUDTException
+                0x000000000023fb00       0x10 src/main/c++/udt/src/common.o
+                0x000000000023fb00                _ZTI13CUDTException
+ *fill*         0x000000000023fb10       0x10 00
+ .data.rel.ro._ZTV13CUDTException
+                0x000000000023fb20       0x38 src/main/c++/udt/src/common.o
+                0x000000000023fb20                _ZTV13CUDTException
+ *fill*         0x000000000023fb58        0x8 00
+ .data.rel.ro._ZTV10CCCFactoryI6CUDTCCE
+                0x000000000023fb60       0x30 src/main/c++/udt/src/core.o
+                0x000000000023fb60                _ZTV10CCCFactoryI6CUDTCCE
+ .data.rel.ro._ZTI10CCCFactoryI6CUDTCCE
+                0x000000000023fb90       0x18 src/main/c++/udt/src/core.o
+                0x000000000023fb90                _ZTI10CCCFactoryI6CUDTCCE
+
+.dynamic        0x000000000023fba8      0x1c0
+ *(.dynamic)
+ .dynamic       0x000000000023fba8      0x1c0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+                0x000000000023fba8                _DYNAMIC
+
+.got            0x000000000023fd68      0x268
+ *(.got)
+ .got           0x000000000023fd68      0x268 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x000000000023ffe8                . = DATA_SEGMENT_RELRO_END (., 0x18)
+
+.got.plt        0x000000000023ffe8      0xfb8
+ *(.got.plt)
+ .got.plt       0x000000000023ffe8      0xfb8 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+                0x000000000023ffe8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000240fa0       0x20
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000240fa0        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000240fa0        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbeginS.o
+ .data.rel      0x0000000000240fa0        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbeginS.o
+                0x0000000000240fa0                __dso_handle
+ .data          0x0000000000240fa8        0x0 src/main/c++/jni/JNICCC.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000240fa8        0x8 src/main/c++/jni/JNICCC.o
+                0x0000000000240fa8                DW.ref.__gxx_personality_v0
+ .data          0x0000000000240fb0        0x0 src/main/c++/jni/JNICCCFactory.o
+ .data          0x0000000000240fb0        0x0 src/main/c++/jni/JNIHelpers.o
+ .data          0x0000000000240fb0        0x0 src/main/c++/jni/com_barchart_udt_CCC.o
+ .data          0x0000000000240fb0        0x0 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .data          0x0000000000240fb0        0x0 src/main/c++/udt/src/api.o
+ .data.DW.ref._ZTI13CUDTException
+                0x0000000000240fb0        0x8 src/main/c++/udt/src/api.o
+                0x0000000000240fb0                DW.ref._ZTI13CUDTException
+ .data.DW.ref._ZTISt9bad_alloc
+                0x0000000000240fb8        0x8 src/main/c++/udt/src/api.o
+                0x0000000000240fb8                DW.ref._ZTISt9bad_alloc
+ .data          0x0000000000240fc0        0x0 src/main/c++/udt/src/buffer.o
+ .data          0x0000000000240fc0        0x0 src/main/c++/udt/src/cache.o
+ .data          0x0000000000240fc0        0x0 src/main/c++/udt/src/ccc.o
+ .data          0x0000000000240fc0        0x0 src/main/c++/udt/src/channel.o
+ .data          0x0000000000240fc0        0x0 src/main/c++/udt/src/common.o
+ .data          0x0000000000240fc0        0x0 src/main/c++/udt/src/core.o
+ .data          0x0000000000240fc0        0x0 src/main/c++/udt/src/epoll.o
+ .data          0x0000000000240fc0        0x0 src/main/c++/udt/src/list.o
+ .data          0x0000000000240fc0        0x0 src/main/c++/udt/src/md5.o
+ .data          0x0000000000240fc0        0x0 src/main/c++/udt/src/packet.o
+ .data          0x0000000000240fc0        0x0 src/main/c++/udt/src/queue.o
+ .data          0x0000000000240fc0        0x0 src/main/c++/udt/src/window.o
+ .data          0x0000000000240fc0        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtendS.o
+ .data          0x0000000000240fc0        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+
+.data1
+ *(.data1)
+                0x0000000000240fc0                _edata = .
+                0x0000000000240fc0                PROVIDE (edata, .)
+                0x0000000000240fc0                __bss_start = .
+
+.bss            0x0000000000240fc0      0x550
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000240fc0        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000240fc0       0x10 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbeginS.o
+ .bss           0x0000000000240fd0        0x0 src/main/c++/jni/JNICCC.o
+ .bss           0x0000000000240fd0       0x10 src/main/c++/jni/JNICCCFactory.o
+                0x0000000000240fd0                _ZN13JNICCCFactory40_udt_clsFactoryInterfaceUDT_cloneFactoryE
+                0x0000000000240fd8                _ZN13JNICCCFactory34_udt_clsFactoryInterfaceUDT_createE
+ .bss           0x0000000000240fe0       0xb8 src/main/c++/jni/JNIHelpers.o
+                0x0000000000240fe0                udt_CCC_fld_nativeHandleID
+                0x0000000000240fe8                udt_FactoryInterfaceUDT
+                0x0000000000240ff0                jdk_Iterator_next
+                0x0000000000240ff8                jdk_Iterator_hasNext
+                0x0000000000241000                jdk_Set_contains
+                0x0000000000241008                jdk_Set_add
+                0x0000000000241010                jdk_Set_iterator
+                0x0000000000241018                jdk_InetSocketAddress_getPort
+                0x0000000000241020                jdk_InetSocketAddress_getAddress
+                0x0000000000241028                jdk_InetSocketAddress_init
+                0x0000000000241030                jdk_InetAddress_getByAddress
+                0x0000000000241038                jdk_InetAddress_getAddress
+                0x0000000000241040                jdk_Long_init
+                0x0000000000241048                jdk_Integer_init
+                0x0000000000241050                jdk_Boolean_init
+                0x0000000000241058                jdk_Iterator
+                0x0000000000241060                jdk_Set
+                0x0000000000241068                jdk_SocketException
+                0x0000000000241070                jdk_InetSocketAddress
+                0x0000000000241078                jdk_InetAddress
+                0x0000000000241080                jdk_Long
+                0x0000000000241088                jdk_Integer
+                0x0000000000241090                jdk_Boolean
+ .bss           0x0000000000241098        0x0 src/main/c++/jni/com_barchart_udt_CCC.o
+ .bss           0x0000000000241098      0x179 src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ *fill*         0x0000000000241211        0x3 00
+ .bss           0x0000000000241214        0x0 src/main/c++/udt/src/api.o
+ .bss           0x0000000000241214        0x0 src/main/c++/udt/src/buffer.o
+ .bss           0x0000000000241214        0x0 src/main/c++/udt/src/cache.o
+ .bss           0x0000000000241214        0x0 src/main/c++/udt/src/ccc.o
+ .bss           0x0000000000241214        0x0 src/main/c++/udt/src/channel.o
+ *fill*         0x0000000000241214        0xc 00
+ .bss           0x0000000000241220       0x71 src/main/c++/udt/src/common.o
+                0x0000000000241220                _ZN6CTimer11m_EventCondE
+                0x0000000000241260                _ZN6CTimer11m_EventLockE
+                0x0000000000241288                _ZN6CTimer17s_ullCPUFrequencyE
+                0x0000000000241290                _ZN6CTimer17m_bUseMicroSecondE
+ *fill*         0x0000000000241291        0xf 00
+ .bss           0x00000000002412a0      0x270 src/main/c++/udt/src/core.o
+                0x00000000002412a0                _ZN4CUDT11s_UDTUnitedE
+ .bss           0x0000000000241510        0x0 src/main/c++/udt/src/epoll.o
+ .bss           0x0000000000241510        0x0 src/main/c++/udt/src/list.o
+ .bss           0x0000000000241510        0x0 src/main/c++/udt/src/md5.o
+ .bss           0x0000000000241510        0x0 src/main/c++/udt/src/packet.o
+ .bss           0x0000000000241510        0x0 src/main/c++/udt/src/queue.o
+ .bss           0x0000000000241510        0x0 src/main/c++/udt/src/window.o
+ .bss           0x0000000000241510        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtendS.o
+ .bss           0x0000000000241510        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+ *(COMMON)
+                0x0000000000241510                . = ALIGN ((. != 0x0)?0x8:0x1)
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x0000000000241510                . = ALIGN (0x8)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000641510        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000641510                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000641510                . = ALIGN (0x8)
+                0x0000000000641510                _end = .
+                0x0000000000641510                PROVIDE (end, .)
+                0x0000000000641510                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2a
+ *(.comment)
+ .comment       0x0000000000000000       0x2a /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbeginS.o
+                                         0x2b (size before relaxing)
+ .comment       0x0000000000000000       0x2b src/main/c++/jni/JNICCC.o
+ .comment       0x0000000000000000       0x2b src/main/c++/jni/JNICCCFactory.o
+ .comment       0x0000000000000000       0x2b src/main/c++/jni/JNIHelpers.o
+ .comment       0x0000000000000000       0x2b src/main/c++/jni/com_barchart_udt_CCC.o
+ .comment       0x0000000000000000       0x2b src/main/c++/jni/com_barchart_udt_SocketUDT.o
+ .comment       0x0000000000000000       0x2b src/main/c++/udt/src/api.o
+ .comment       0x0000000000000000       0x2b src/main/c++/udt/src/buffer.o
+ .comment       0x0000000000000000       0x2b src/main/c++/udt/src/cache.o
+ .comment       0x0000000000000000       0x2b src/main/c++/udt/src/ccc.o
+ .comment       0x0000000000000000       0x2b src/main/c++/udt/src/channel.o
+ .comment       0x0000000000000000       0x2b src/main/c++/udt/src/common.o
+ .comment       0x0000000000000000       0x2b src/main/c++/udt/src/core.o
+ .comment       0x0000000000000000       0x2b src/main/c++/udt/src/epoll.o
+ .comment       0x0000000000000000       0x2b src/main/c++/udt/src/list.o
+ .comment       0x0000000000000000       0x2b src/main/c++/udt/src/md5.o
+ .comment       0x0000000000000000       0x2b src/main/c++/udt/src/packet.o
+ .comment       0x0000000000000000       0x2b src/main/c++/udt/src/queue.o
+ .comment       0x0000000000000000       0x2b src/main/c++/udt/src/window.o
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/4.6/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libudt-file-server-test-amd64-Linux-gpp.so elf64-x86-64)
